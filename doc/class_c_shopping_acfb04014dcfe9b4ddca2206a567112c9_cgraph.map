@@ -1,0 +1,5 @@
+<map id="CShopping::printItems" name="CShopping::printItems">
+<area shape="rect" id="node2" href="$class_c_display.html#a54c5d36f4bc11d4a935ff5c86ea4e653" title="CDisplay::print" alt="" coords="220,5,327,32"/>
+<area shape="rect" id="node3" href="$class_c_world.html#aae01822f61bfe35284a1ca9c02bdb1a5" title="CWorld::getItem" alt="" coords="215,56,331,83"/>
+<area shape="rect" id="node4" href="$class_c_item.html#af56df4ab4d87984c56401231dd3492cf" title="CItem::printForShop" alt="" coords="204,107,343,133"/>
+</map>

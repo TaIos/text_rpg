@@ -1,0 +1,9 @@
+<map id="CInventoryBrowser::printInventory" name="CInventoryBrowser::printInventory">
+<area shape="rect" id="node2" href="$class_c_inventory.html#a3fe6ee0c2de70f3e2d9278e43f125fe9" title="CInventory::isEmpty" alt="" coords="214,5,353,32"/>
+<area shape="rect" id="node3" href="$class_c_display.html#a53b65673a9b0bfc807a3a1e448962928" title="CDisplay::printWithDelimiter" alt="" coords="191,56,376,83"/>
+<area shape="rect" id="node5" href="$class_c_display.html#a54c5d36f4bc11d4a935ff5c86ea4e653" title="CDisplay::print" alt="" coords="230,107,337,133"/>
+<area shape="rect" id="node6" href="$class_c_inventory.html#a473699b2949d4c6c19853f5047fa7737" title="CInventory::getItemsID" alt="" coords="207,157,359,184"/>
+<area shape="rect" id="node7" href="$class_c_world.html#aae01822f61bfe35284a1ca9c02bdb1a5" title="CWorld::getItem" alt="" coords="225,208,341,235"/>
+<area shape="rect" id="node8" href="$class_c_item.html#af35b9c64f05a8377298505b3a81bcd18" title="CItem::print" alt="" coords="239,259,328,285"/>
+<area shape="rect" id="node4" href="$class_c_display.html#af350b35b44fc756e0c721ec4ee56c67a" title="CDisplay::printDelimiter" alt="" coords="424,56,583,83"/>
+</map>

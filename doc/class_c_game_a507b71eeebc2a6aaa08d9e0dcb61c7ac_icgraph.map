@@ -1,0 +1,8 @@
+<map id="CGame::importPlayerData" name="CGame::importPlayerData">
+<area shape="rect" id="node2" href="$class_c_game.html#accda079824fc813cbd64b4743846ae24" title="CGame::loadGame" alt="" coords="228,120,361,147"/>
+<area shape="rect" id="node3" href="$class_c_game.html#a39e1e296c6dcabbf5c824eea6424d6d9" title="CGame::mainMenu" alt="" coords="409,120,544,147"/>
+<area shape="rect" id="node4" href="$class_c_game.html#aa9d3da2fefa1c04faefc6586dbd37971" title="CGame::play" alt="" coords="592,81,691,108"/>
+<area shape="rect" id="node6" href="$class_c_game.html#a714b291af5e20aae8be14a905fd0522d" title="CGame::tickComponent" alt="" coords="961,107,1123,133"/>
+<area shape="rect" id="node5" href="$class_c_game.html#ac0a8028013ca5a7c135c29fa582df4a0" title="CGame::checkHeroStatus" alt="" coords="739,5,913,32"/>
+<area shape="rect" id="node7" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="801,56,851,83"/>
+</map>

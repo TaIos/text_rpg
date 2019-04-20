@@ -1,0 +1,4 @@
+<map id="HeroStats::levelUp" name="HeroStats::levelUp">
+<area shape="rect" id="node2" href="$class_c_hero.html#aa184a6841da51966480c2172c2f80134" title="CHero::addXP" alt="" coords="183,5,285,32"/>
+<area shape="rect" id="node3" href="$class_c_fight.html#ac820b62e70990ddc90ecb959f4497f8f" title="CFight::execute" alt="" coords="333,5,448,32"/>
+</map>

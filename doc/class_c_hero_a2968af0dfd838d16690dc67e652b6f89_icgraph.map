@@ -1,0 +1,6 @@
+<map id="CHero::getInventory" name="CHero::getInventory">
+<area shape="rect" id="node2" href="$class_c_inventory_browser.html#a91c51766048ba5629b125b9a444d31bb" title="CInventoryBrowser::\loperator()" alt="" coords="380,5,517,47"/>
+<area shape="rect" id="node3" href="$class_c_inventory_browser.html#ac865349ca08d9402c869d8e5450c689a" title="CInventoryBrowser::\lequip" alt="" coords="189,35,326,76"/>
+<area shape="rect" id="node4" href="$class_c_shopping.html#a0981a7916cca8a37beb35858ad2ec77e" title="CShopping::buyItem" alt="" coords="188,101,327,127"/>
+<area shape="rect" id="node5" href="$class_c_shopping.html#ab72dff2e94f897bd5c3f1ef660e65afb" title="CShopping::operator()" alt="" coords="375,101,523,127"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="CHero::addXP" name="CHero::addXP">
+<area shape="rect" id="node2" href="$struct_hero_stats.html#af28870ab75d59129709abd0b84670a43" title="HeroStats::levelUp" alt="" coords="171,5,300,32"/>
+<area shape="rect" id="node3" href="$class_c_display.html#a54c5d36f4bc11d4a935ff5c86ea4e653" title="CDisplay::print" alt="" coords="182,56,289,83"/>
+<area shape="rect" id="node4" href="$class_c_display.html#af350b35b44fc756e0c721ec4ee56c67a" title="CDisplay::printDelimiter" alt="" coords="156,107,315,133"/>
+</map>

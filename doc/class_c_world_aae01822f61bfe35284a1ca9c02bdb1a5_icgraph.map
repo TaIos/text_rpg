@@ -1,0 +1,8 @@
+<map id="CWorld::getItem" name="CWorld::getItem">
+<area shape="rect" id="node2" href="$class_c_inventory_browser.html#ac865349ca08d9402c869d8e5450c689a" title="CInventoryBrowser::\lequip" alt="" coords="176,5,313,47"/>
+<area shape="rect" id="node4" href="$class_c_inventory_browser.html#a022cb6fc703bd156921816554c7a18b8" title="CInventoryBrowser::\lprintInventory" alt="" coords="176,71,313,112"/>
+<area shape="rect" id="node5" href="$class_c_shopping.html#acfb04014dcfe9b4ddca2206a567112c9" title="CShopping::printItems" alt="" coords="169,137,320,163"/>
+<area shape="rect" id="node7" href="$class_c_shopping.html#a0981a7916cca8a37beb35858ad2ec77e" title="CShopping::buyItem" alt="" coords="175,187,314,214"/>
+<area shape="rect" id="node3" href="$class_c_inventory_browser.html#a91c51766048ba5629b125b9a444d31bb" title="CInventoryBrowser::\loperator()" alt="" coords="373,59,511,100"/>
+<area shape="rect" id="node6" href="$class_c_shopping.html#ab72dff2e94f897bd5c3f1ef660e65afb" title="CShopping::operator()" alt="" coords="368,150,516,177"/>
+</map>

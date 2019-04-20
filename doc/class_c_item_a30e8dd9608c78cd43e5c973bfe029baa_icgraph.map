@@ -1,0 +1,5 @@
+<map id="CItem::useItem" name="CItem::useItem">
+<area shape="rect" id="node2" href="$class_c_hero.html#ae6ef1be1a9d01855208eeb82292e9f76" title="CHero::useItem" alt="" coords="164,13,276,39"/>
+<area shape="rect" id="node3" href="$class_c_inventory_browser.html#ac865349ca08d9402c869d8e5450c689a" title="CInventoryBrowser::\lequip" alt="" coords="324,5,461,47"/>
+<area shape="rect" id="node4" href="$class_c_inventory_browser.html#a91c51766048ba5629b125b9a444d31bb" title="CInventoryBrowser::\loperator()" alt="" coords="509,5,647,47"/>
+</map>

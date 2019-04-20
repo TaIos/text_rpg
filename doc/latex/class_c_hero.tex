@@ -1,0 +1,373 @@
+\hypertarget{class_c_hero}{}\section{C\+Hero Class Reference}
+\label{class_c_hero}\index{C\+Hero@{C\+Hero}}
+
+
+{\ttfamily \#include $<$Hero.\+h$>$}
+
+
+
+Collaboration diagram for C\+Hero\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_hero__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_hero_a1d6f7e413063f4a842ed00ba0c90ee72}{C\+Hero}} ()=default
+\item 
+\mbox{\hyperlink{class_c_hero_aca0736bba589d24026c4947b047ec7ca}{C\+Hero}} (std\+::string new\+Name, std\+::string new\+Race)
+\item 
+void \mbox{\hyperlink{class_c_hero_a1593ac4dfc01368e99b2b82a21c3c6ed}{export\+Data}} (std\+::string \&data) const
+\item 
+void \mbox{\hyperlink{class_c_hero_a7b1a1b3c196bbe5b8da97c56f520c1f3}{update}} (const std\+::string \&data, const \mbox{\hyperlink{class_c_stream_decoder}{C\+Stream\+Decoder}} \&decoder)
+\item 
+void \mbox{\hyperlink{class_c_hero_a7cda26a24b8e70fc2ffe829e9c984b7e}{fight}} (const \mbox{\hyperlink{class_c_creature}{C\+Creature}} \&creature)
+\item 
+void \mbox{\hyperlink{class_c_hero_ae6ef1be1a9d01855208eeb82292e9f76}{use\+Item}} (const \mbox{\hyperlink{class_c_item}{C\+Item}} \&item)
+\item 
+void \mbox{\hyperlink{class_c_hero_a9442ae76d634a968c99d6bc77c927f96}{suffer\+Damage}} (int dmg)
+\item 
+bool \mbox{\hyperlink{class_c_hero_acf265a146732ccfe08db87b6cc69cef3}{is\+Dead}} ()
+\item 
+int \mbox{\hyperlink{class_c_hero_a5e3ad0e205d7ac9e4fd2e021a5cc959e}{get\+Gold}} () const
+\item 
+std\+::string \mbox{\hyperlink{class_c_hero_ae4b84144aca1948f65daa0b9734f163f}{get\+Name}} () const
+\item 
+void \mbox{\hyperlink{class_c_hero_a8568163de8d05b40e5c0b1d878472fd4}{pay\+Gold}} (int num)
+\item 
+void \mbox{\hyperlink{class_c_hero_aa906388b12b8194cf4bfc45a42027322}{add\+Gold}} (int num)
+\item 
+void \mbox{\hyperlink{class_c_hero_aa184a6841da51966480c2172c2f80134}{add\+XP}} (int num, const \mbox{\hyperlink{class_c_display}{C\+Display}} \&display)
+\item 
+int \mbox{\hyperlink{class_c_hero_a1be25c88254db1f753e1ce89da03ef46}{get\+Attack}} () const
+\item 
+int \mbox{\hyperlink{class_c_hero_a50d1e46ce5b1d84c6ed04493f1d71f81}{get\+Armour}} () const
+\item 
+\mbox{\hyperlink{class_c_inventory}{C\+Inventory}} \& \mbox{\hyperlink{class_c_hero_a2968af0dfd838d16690dc67e652b6f89}{get\+Inventory}} ()
+\item 
+void \mbox{\hyperlink{class_c_hero_a0232f04b4e49227ba90a8922135d4102}{print\+Stats}} (const \mbox{\hyperlink{class_c_display}{C\+Display}} \&display) const
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{class_c_hero_aef47575d9fb80e636bc99f7402a09169}{name}}
+\item 
+\mbox{\hyperlink{struct_hero_stats}{Hero\+Stats}} \mbox{\hyperlink{class_c_hero_ad0f762c5159f5ad1eebec205a700496a}{stats}}
+\item 
+\mbox{\hyperlink{class_c_equipment}{C\+Equipment}} \mbox{\hyperlink{class_c_hero_a1d57f797a22e8c02b2e7c3909a75b456}{equipment}}
+\item 
+\mbox{\hyperlink{class_c_inventory}{C\+Inventory}} \mbox{\hyperlink{class_c_hero_a711765d0b222d1e8126a0a5199042f5c}{inventory}}
+\item 
+int \mbox{\hyperlink{class_c_hero_acc4cc7eb88f2d67a5920ebabeca7cc46}{gold}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_hero_a1d6f7e413063f4a842ed00ba0c90ee72}\label{class_c_hero_a1d6f7e413063f4a842ed00ba0c90ee72}} 
+\index{C\+Hero@{C\+Hero}!C\+Hero@{C\+Hero}}
+\index{C\+Hero@{C\+Hero}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{C\+Hero()}{CHero()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily C\+Hero\+::\+C\+Hero (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+\mbox{\Hypertarget{class_c_hero_aca0736bba589d24026c4947b047ec7ca}\label{class_c_hero_aca0736bba589d24026c4947b047ec7ca}} 
+\index{C\+Hero@{C\+Hero}!C\+Hero@{C\+Hero}}
+\index{C\+Hero@{C\+Hero}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{C\+Hero()}{CHero()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily C\+Hero\+::\+C\+Hero (\begin{DoxyParamCaption}\item[{std\+::string}]{new\+Name,  }\item[{std\+::string}]{new\+Race }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_hero_aa906388b12b8194cf4bfc45a42027322}\label{class_c_hero_aa906388b12b8194cf4bfc45a42027322}} 
+\index{C\+Hero@{C\+Hero}!add\+Gold@{add\+Gold}}
+\index{add\+Gold@{add\+Gold}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{add\+Gold()}{addGold()}}
+{\footnotesize\ttfamily void C\+Hero\+::add\+Gold (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{class_c_hero_aa906388b12b8194cf4bfc45a42027322_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_hero_aa184a6841da51966480c2172c2f80134}\label{class_c_hero_aa184a6841da51966480c2172c2f80134}} 
+\index{C\+Hero@{C\+Hero}!add\+XP@{add\+XP}}
+\index{add\+XP@{add\+XP}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{add\+X\+P()}{addXP()}}
+{\footnotesize\ttfamily void C\+Hero\+::add\+XP (\begin{DoxyParamCaption}\item[{int}]{num,  }\item[{const \mbox{\hyperlink{class_c_display}{C\+Display}} \&}]{display }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{class_c_hero_aa184a6841da51966480c2172c2f80134_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=279pt]{class_c_hero_aa184a6841da51966480c2172c2f80134_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_hero_a1593ac4dfc01368e99b2b82a21c3c6ed}\label{class_c_hero_a1593ac4dfc01368e99b2b82a21c3c6ed}} 
+\index{C\+Hero@{C\+Hero}!export\+Data@{export\+Data}}
+\index{export\+Data@{export\+Data}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{export\+Data()}{exportData()}}
+{\footnotesize\ttfamily void C\+Hero\+::export\+Data (\begin{DoxyParamCaption}\item[{std\+::string \&}]{data }\end{DoxyParamCaption}) const}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{class_c_hero_a1593ac4dfc01368e99b2b82a21c3c6ed_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_hero_a1593ac4dfc01368e99b2b82a21c3c6ed_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_hero_a7cda26a24b8e70fc2ffe829e9c984b7e}\label{class_c_hero_a7cda26a24b8e70fc2ffe829e9c984b7e}} 
+\index{C\+Hero@{C\+Hero}!fight@{fight}}
+\index{fight@{fight}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{fight()}{fight()}}
+{\footnotesize\ttfamily void C\+Hero\+::fight (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_c_creature}{C\+Creature}} \&}]{creature }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_hero_a7cda26a24b8e70fc2ffe829e9c984b7e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{class_c_hero_a7cda26a24b8e70fc2ffe829e9c984b7e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_hero_a50d1e46ce5b1d84c6ed04493f1d71f81}\label{class_c_hero_a50d1e46ce5b1d84c6ed04493f1d71f81}} 
+\index{C\+Hero@{C\+Hero}!get\+Armour@{get\+Armour}}
+\index{get\+Armour@{get\+Armour}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{get\+Armour()}{getArmour()}}
+{\footnotesize\ttfamily int C\+Hero\+::get\+Armour (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{class_c_hero_a50d1e46ce5b1d84c6ed04493f1d71f81_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_hero_a50d1e46ce5b1d84c6ed04493f1d71f81_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_hero_a1be25c88254db1f753e1ce89da03ef46}\label{class_c_hero_a1be25c88254db1f753e1ce89da03ef46}} 
+\index{C\+Hero@{C\+Hero}!get\+Attack@{get\+Attack}}
+\index{get\+Attack@{get\+Attack}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{get\+Attack()}{getAttack()}}
+{\footnotesize\ttfamily int C\+Hero\+::get\+Attack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{class_c_hero_a1be25c88254db1f753e1ce89da03ef46_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_hero_a1be25c88254db1f753e1ce89da03ef46_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_hero_a5e3ad0e205d7ac9e4fd2e021a5cc959e}\label{class_c_hero_a5e3ad0e205d7ac9e4fd2e021a5cc959e}} 
+\index{C\+Hero@{C\+Hero}!get\+Gold@{get\+Gold}}
+\index{get\+Gold@{get\+Gold}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{get\+Gold()}{getGold()}}
+{\footnotesize\ttfamily int C\+Hero\+::get\+Gold (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_hero_a5e3ad0e205d7ac9e4fd2e021a5cc959e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_hero_a2968af0dfd838d16690dc67e652b6f89}\label{class_c_hero_a2968af0dfd838d16690dc67e652b6f89}} 
+\index{C\+Hero@{C\+Hero}!get\+Inventory@{get\+Inventory}}
+\index{get\+Inventory@{get\+Inventory}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{get\+Inventory()}{getInventory()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_c_inventory}{C\+Inventory}}\& C\+Hero\+::get\+Inventory (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_hero_a2968af0dfd838d16690dc67e652b6f89_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_hero_ae4b84144aca1948f65daa0b9734f163f}\label{class_c_hero_ae4b84144aca1948f65daa0b9734f163f}} 
+\index{C\+Hero@{C\+Hero}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{get\+Name()}{getName()}}
+{\footnotesize\ttfamily std\+::string C\+Hero\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_hero_ae4b84144aca1948f65daa0b9734f163f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_hero_acf265a146732ccfe08db87b6cc69cef3}\label{class_c_hero_acf265a146732ccfe08db87b6cc69cef3}} 
+\index{C\+Hero@{C\+Hero}!is\+Dead@{is\+Dead}}
+\index{is\+Dead@{is\+Dead}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{is\+Dead()}{isDead()}}
+{\footnotesize\ttfamily bool C\+Hero\+::is\+Dead (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_hero_acf265a146732ccfe08db87b6cc69cef3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_hero_a8568163de8d05b40e5c0b1d878472fd4}\label{class_c_hero_a8568163de8d05b40e5c0b1d878472fd4}} 
+\index{C\+Hero@{C\+Hero}!pay\+Gold@{pay\+Gold}}
+\index{pay\+Gold@{pay\+Gold}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{pay\+Gold()}{payGold()}}
+{\footnotesize\ttfamily void C\+Hero\+::pay\+Gold (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_hero_a8568163de8d05b40e5c0b1d878472fd4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_hero_a0232f04b4e49227ba90a8922135d4102}\label{class_c_hero_a0232f04b4e49227ba90a8922135d4102}} 
+\index{C\+Hero@{C\+Hero}!print\+Stats@{print\+Stats}}
+\index{print\+Stats@{print\+Stats}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{print\+Stats()}{printStats()}}
+{\footnotesize\ttfamily void C\+Hero\+::print\+Stats (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_c_display}{C\+Display}} \&}]{display }\end{DoxyParamCaption}) const}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_hero_a0232f04b4e49227ba90a8922135d4102_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_hero_a0232f04b4e49227ba90a8922135d4102_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_hero_a9442ae76d634a968c99d6bc77c927f96}\label{class_c_hero_a9442ae76d634a968c99d6bc77c927f96}} 
+\index{C\+Hero@{C\+Hero}!suffer\+Damage@{suffer\+Damage}}
+\index{suffer\+Damage@{suffer\+Damage}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{suffer\+Damage()}{sufferDamage()}}
+{\footnotesize\ttfamily void C\+Hero\+::suffer\+Damage (\begin{DoxyParamCaption}\item[{int}]{dmg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{class_c_hero_a9442ae76d634a968c99d6bc77c927f96_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_hero_a7b1a1b3c196bbe5b8da97c56f520c1f3}\label{class_c_hero_a7b1a1b3c196bbe5b8da97c56f520c1f3}} 
+\index{C\+Hero@{C\+Hero}!update@{update}}
+\index{update@{update}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void C\+Hero\+::update (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{data,  }\item[{const \mbox{\hyperlink{class_c_stream_decoder}{C\+Stream\+Decoder}} \&}]{decoder }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_hero_a7b1a1b3c196bbe5b8da97c56f520c1f3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_hero_a7b1a1b3c196bbe5b8da97c56f520c1f3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_hero_ae6ef1be1a9d01855208eeb82292e9f76}\label{class_c_hero_ae6ef1be1a9d01855208eeb82292e9f76}} 
+\index{C\+Hero@{C\+Hero}!use\+Item@{use\+Item}}
+\index{use\+Item@{use\+Item}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{use\+Item()}{useItem()}}
+{\footnotesize\ttfamily void C\+Hero\+::use\+Item (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_c_item}{C\+Item}} \&}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=283pt]{class_c_hero_ae6ef1be1a9d01855208eeb82292e9f76_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_hero_ae6ef1be1a9d01855208eeb82292e9f76_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_c_hero_a1d57f797a22e8c02b2e7c3909a75b456}\label{class_c_hero_a1d57f797a22e8c02b2e7c3909a75b456}} 
+\index{C\+Hero@{C\+Hero}!equipment@{equipment}}
+\index{equipment@{equipment}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{equipment}{equipment}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_c_equipment}{C\+Equipment}} C\+Hero\+::equipment\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_c_hero_acc4cc7eb88f2d67a5920ebabeca7cc46}\label{class_c_hero_acc4cc7eb88f2d67a5920ebabeca7cc46}} 
+\index{C\+Hero@{C\+Hero}!gold@{gold}}
+\index{gold@{gold}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{gold}{gold}}
+{\footnotesize\ttfamily int C\+Hero\+::gold\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_c_hero_a711765d0b222d1e8126a0a5199042f5c}\label{class_c_hero_a711765d0b222d1e8126a0a5199042f5c}} 
+\index{C\+Hero@{C\+Hero}!inventory@{inventory}}
+\index{inventory@{inventory}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{inventory}{inventory}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_c_inventory}{C\+Inventory}} C\+Hero\+::inventory\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_c_hero_aef47575d9fb80e636bc99f7402a09169}\label{class_c_hero_aef47575d9fb80e636bc99f7402a09169}} 
+\index{C\+Hero@{C\+Hero}!name@{name}}
+\index{name@{name}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily std\+::string C\+Hero\+::name\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_c_hero_ad0f762c5159f5ad1eebec205a700496a}\label{class_c_hero_ad0f762c5159f5ad1eebec205a700496a}} 
+\index{C\+Hero@{C\+Hero}!stats@{stats}}
+\index{stats@{stats}!C\+Hero@{C\+Hero}}
+\subsubsection{\texorpdfstring{stats}{stats}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_hero_stats}{Hero\+Stats}} C\+Hero\+::stats\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\mbox{\hyperlink{_hero_8h}{Hero.\+h}}\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\mbox{\hyperlink{_hero_8cpp}{Hero.\+cpp}}\end{DoxyCompactItemize}

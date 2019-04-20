@@ -1,0 +1,11 @@
+<map id="CEquipment::setAttack" name="CEquipment::setAttack">
+<area shape="rect" id="node2" href="$class_c_hero.html#a7b1a1b3c196bbe5b8da97c56f520c1f3" title="CHero::update" alt="" coords="219,120,324,147"/>
+<area shape="rect" id="node10" href="$class_c_sword.html#a565b01124ed0c92e6873dcc0263d4a79" title="CSword::useItem" alt="" coords="211,171,332,197"/>
+<area shape="rect" id="node3" href="$class_c_game.html#a507b71eeebc2a6aaa08d9e0dcb61c7ac" title="CGame::importPlayerData" alt="" coords="380,120,555,147"/>
+<area shape="rect" id="node4" href="$class_c_game.html#accda079824fc813cbd64b4743846ae24" title="CGame::loadGame" alt="" coords="603,120,736,147"/>
+<area shape="rect" id="node5" href="$class_c_game.html#a39e1e296c6dcabbf5c824eea6424d6d9" title="CGame::mainMenu" alt="" coords="784,120,919,147"/>
+<area shape="rect" id="node6" href="$class_c_game.html#aa9d3da2fefa1c04faefc6586dbd37971" title="CGame::play" alt="" coords="967,81,1065,108"/>
+<area shape="rect" id="node8" href="$class_c_game.html#a714b291af5e20aae8be14a905fd0522d" title="CGame::tickComponent" alt="" coords="1336,107,1497,133"/>
+<area shape="rect" id="node7" href="$class_c_game.html#ac0a8028013ca5a7c135c29fa582df4a0" title="CGame::checkHeroStatus" alt="" coords="1113,5,1288,32"/>
+<area shape="rect" id="node9" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1175,56,1226,83"/>
+</map>

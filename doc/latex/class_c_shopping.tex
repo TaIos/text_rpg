@@ -1,0 +1,181 @@
+\hypertarget{class_c_shopping}{}\section{C\+Shopping Class Reference}
+\label{class_c_shopping}\index{C\+Shopping@{C\+Shopping}}
+
+
+{\ttfamily \#include $<$Shopping.\+h$>$}
+
+
+
+Collaboration diagram for C\+Shopping\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=180pt]{class_c_shopping__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_shopping_a3d9bc582b9961e02efc9dc22c6da2ced}{C\+Shopping}} ()=default
+\item 
+void \mbox{\hyperlink{class_c_shopping_ab72dff2e94f897bd5c3f1ef660e65afb}{operator()}} (\mbox{\hyperlink{class_c_hero}{C\+Hero}} \&hero, const \mbox{\hyperlink{class_c_world}{C\+World}} \&world, const \mbox{\hyperlink{class_c_display}{C\+Display}} \&display)
+\item 
+void \mbox{\hyperlink{class_c_shopping_aa232d999181d07bfd6ec0ec5c645f51b}{update}} (const std\+::set$<$ int $>$ \&data)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_c_shopping_a83cfae0f7001775fc1d5a5dc097b3e96}{erase\+Item}} (int item\+ID)
+\item 
+void \mbox{\hyperlink{class_c_shopping_a0981a7916cca8a37beb35858ad2ec77e}{buy\+Item}} (int item\+ID, \mbox{\hyperlink{class_c_hero}{C\+Hero}} \&hero, const \mbox{\hyperlink{class_c_world}{C\+World}} \&world, const \mbox{\hyperlink{class_c_display}{C\+Display}} \&display)
+\item 
+void \mbox{\hyperlink{class_c_shopping_a5d075417297809f43042d74da0fdaad5}{print\+Help}} (const \mbox{\hyperlink{class_c_display}{C\+Display}} \&display) const
+\item 
+void \mbox{\hyperlink{class_c_shopping_acfb04014dcfe9b4ddca2206a567112c9}{print\+Items}} (const \mbox{\hyperlink{class_c_display}{C\+Display}} \&display, const \mbox{\hyperlink{class_c_world}{C\+World}} \&world) const
+\item 
+bool \mbox{\hyperlink{class_c_shopping_af06bd6ee3beb6ab523a4b7291a677201}{is\+In\+Shop}} (int item\+ID) const
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::set$<$ int $>$ \mbox{\hyperlink{class_c_shopping_ac6f61d541ae75665fd5a6e2d360a0bfd}{items\+To\+Sell}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_shopping_a3d9bc582b9961e02efc9dc22c6da2ced}\label{class_c_shopping_a3d9bc582b9961e02efc9dc22c6da2ced}} 
+\index{C\+Shopping@{C\+Shopping}!C\+Shopping@{C\+Shopping}}
+\index{C\+Shopping@{C\+Shopping}!C\+Shopping@{C\+Shopping}}
+\subsubsection{\texorpdfstring{C\+Shopping()}{CShopping()}}
+{\footnotesize\ttfamily C\+Shopping\+::\+C\+Shopping (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_shopping_a0981a7916cca8a37beb35858ad2ec77e}\label{class_c_shopping_a0981a7916cca8a37beb35858ad2ec77e}} 
+\index{C\+Shopping@{C\+Shopping}!buy\+Item@{buy\+Item}}
+\index{buy\+Item@{buy\+Item}!C\+Shopping@{C\+Shopping}}
+\subsubsection{\texorpdfstring{buy\+Item()}{buyItem()}}
+{\footnotesize\ttfamily void C\+Shopping\+::buy\+Item (\begin{DoxyParamCaption}\item[{int}]{item\+ID,  }\item[{\mbox{\hyperlink{class_c_hero}{C\+Hero}} \&}]{hero,  }\item[{const \mbox{\hyperlink{class_c_world}{C\+World}} \&}]{world,  }\item[{const \mbox{\hyperlink{class_c_display}{C\+Display}} \&}]{display }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_shopping_a0981a7916cca8a37beb35858ad2ec77e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{class_c_shopping_a0981a7916cca8a37beb35858ad2ec77e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_shopping_a83cfae0f7001775fc1d5a5dc097b3e96}\label{class_c_shopping_a83cfae0f7001775fc1d5a5dc097b3e96}} 
+\index{C\+Shopping@{C\+Shopping}!erase\+Item@{erase\+Item}}
+\index{erase\+Item@{erase\+Item}!C\+Shopping@{C\+Shopping}}
+\subsubsection{\texorpdfstring{erase\+Item()}{eraseItem()}}
+{\footnotesize\ttfamily void C\+Shopping\+::erase\+Item (\begin{DoxyParamCaption}\item[{int}]{item\+ID }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_shopping_a83cfae0f7001775fc1d5a5dc097b3e96_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_shopping_af06bd6ee3beb6ab523a4b7291a677201}\label{class_c_shopping_af06bd6ee3beb6ab523a4b7291a677201}} 
+\index{C\+Shopping@{C\+Shopping}!is\+In\+Shop@{is\+In\+Shop}}
+\index{is\+In\+Shop@{is\+In\+Shop}!C\+Shopping@{C\+Shopping}}
+\subsubsection{\texorpdfstring{is\+In\+Shop()}{isInShop()}}
+{\footnotesize\ttfamily bool C\+Shopping\+::is\+In\+Shop (\begin{DoxyParamCaption}\item[{int}]{item\+ID }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_shopping_af06bd6ee3beb6ab523a4b7291a677201_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_shopping_ab72dff2e94f897bd5c3f1ef660e65afb}\label{class_c_shopping_ab72dff2e94f897bd5c3f1ef660e65afb}} 
+\index{C\+Shopping@{C\+Shopping}!operator()@{operator()}}
+\index{operator()@{operator()}!C\+Shopping@{C\+Shopping}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}}
+{\footnotesize\ttfamily void C\+Shopping\+::operator() (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_c_hero}{C\+Hero}} \&}]{hero,  }\item[{const \mbox{\hyperlink{class_c_world}{C\+World}} \&}]{world,  }\item[{const \mbox{\hyperlink{class_c_display}{C\+Display}} \&}]{display }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_shopping_ab72dff2e94f897bd5c3f1ef660e65afb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_shopping_a5d075417297809f43042d74da0fdaad5}\label{class_c_shopping_a5d075417297809f43042d74da0fdaad5}} 
+\index{C\+Shopping@{C\+Shopping}!print\+Help@{print\+Help}}
+\index{print\+Help@{print\+Help}!C\+Shopping@{C\+Shopping}}
+\subsubsection{\texorpdfstring{print\+Help()}{printHelp()}}
+{\footnotesize\ttfamily void C\+Shopping\+::print\+Help (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_c_display}{C\+Display}} \&}]{display }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_shopping_a5d075417297809f43042d74da0fdaad5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{class_c_shopping_a5d075417297809f43042d74da0fdaad5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_shopping_acfb04014dcfe9b4ddca2206a567112c9}\label{class_c_shopping_acfb04014dcfe9b4ddca2206a567112c9}} 
+\index{C\+Shopping@{C\+Shopping}!print\+Items@{print\+Items}}
+\index{print\+Items@{print\+Items}!C\+Shopping@{C\+Shopping}}
+\subsubsection{\texorpdfstring{print\+Items()}{printItems()}}
+{\footnotesize\ttfamily void C\+Shopping\+::print\+Items (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_c_display}{C\+Display}} \&}]{display,  }\item[{const \mbox{\hyperlink{class_c_world}{C\+World}} \&}]{world }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{class_c_shopping_acfb04014dcfe9b4ddca2206a567112c9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{class_c_shopping_acfb04014dcfe9b4ddca2206a567112c9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_shopping_aa232d999181d07bfd6ec0ec5c645f51b}\label{class_c_shopping_aa232d999181d07bfd6ec0ec5c645f51b}} 
+\index{C\+Shopping@{C\+Shopping}!update@{update}}
+\index{update@{update}!C\+Shopping@{C\+Shopping}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void C\+Shopping\+::update (\begin{DoxyParamCaption}\item[{const std\+::set$<$ int $>$ \&}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_shopping_aa232d999181d07bfd6ec0ec5c645f51b_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_c_shopping_ac6f61d541ae75665fd5a6e2d360a0bfd}\label{class_c_shopping_ac6f61d541ae75665fd5a6e2d360a0bfd}} 
+\index{C\+Shopping@{C\+Shopping}!items\+To\+Sell@{items\+To\+Sell}}
+\index{items\+To\+Sell@{items\+To\+Sell}!C\+Shopping@{C\+Shopping}}
+\subsubsection{\texorpdfstring{items\+To\+Sell}{itemsToSell}}
+{\footnotesize\ttfamily std\+::set$<$int$>$ C\+Shopping\+::items\+To\+Sell\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\mbox{\hyperlink{_shopping_8h}{Shopping.\+h}}\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\mbox{\hyperlink{_shopping_8cpp}{Shopping.\+cpp}}\end{DoxyCompactItemize}

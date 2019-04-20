@@ -1,0 +1,9 @@
+<map id="CDisplay::multiChoice" name="CDisplay::multiChoice">
+<area shape="rect" id="node2" href="$class_c_choice.html#aeccaa71a8fcd358215fe0ddbc37ab143" title="CChoice::execute" alt="" coords="209,56,334,83"/>
+<area shape="rect" id="node3" href="$class_c_fight.html#ac820b62e70990ddc90ecb959f4497f8f" title="CFight::execute" alt="" coords="214,107,329,133"/>
+<area shape="rect" id="node4" href="$class_c_game.html#a39e1e296c6dcabbf5c824eea6424d6d9" title="CGame::mainMenu" alt="" coords="204,157,339,184"/>
+<area shape="rect" id="node7" href="$class_c_game.html#a714b291af5e20aae8be14a905fd0522d" title="CGame::tickComponent" alt="" coords="756,132,917,159"/>
+<area shape="rect" id="node5" href="$class_c_game.html#aa9d3da2fefa1c04faefc6586dbd37971" title="CGame::play" alt="" coords="387,81,485,108"/>
+<area shape="rect" id="node6" href="$class_c_game.html#ac0a8028013ca5a7c135c29fa582df4a0" title="CGame::checkHeroStatus" alt="" coords="533,5,708,32"/>
+<area shape="rect" id="node8" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="595,56,646,83"/>
+</map>

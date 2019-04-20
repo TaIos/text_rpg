@@ -1,0 +1,5 @@
+<map id="CHero" name="CHero">
+<area shape="rect" id="node2" href="$class_c_inventory.html" title="{CInventory\n||+ exportData()\l+ addItem()\l+ removeItem()\l+ isInInventory()\l+ isEmpty()\l+ update()\l+ update()\l+ getItemsID()\l}" alt="" coords="5,248,119,428"/>
+<area shape="rect" id="node4" href="$struct_hero_stats.html" title="{HeroStats\n||+ exportData()\l+ levelUp()\l}" alt="" coords="365,292,471,384"/>
+<area shape="rect" id="node7" href="$class_c_equipment.html" title="{CEquipment\n||+ CEquipment()\l+ setAttack()\l+ getAttack()\l+ getArmour()\l+ setArmour()\l}" alt="" coords="228,270,341,406"/>
+</map>

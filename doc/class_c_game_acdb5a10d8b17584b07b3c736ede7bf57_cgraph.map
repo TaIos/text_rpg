@@ -1,0 +1,7 @@
+<map id="CGame::reset" name="CGame::reset">
+<area shape="rect" id="node2" href="$class_c_display.html#a54c5d36f4bc11d4a935ff5c86ea4e653" title="CDisplay::print" alt="" coords="174,5,281,32"/>
+<area shape="rect" id="node3" href="$class_c_storyline.html#ad8c62b61513d498b53454aeaf621dda0" title="CStoryline::update" alt="" coords="163,56,292,83"/>
+<area shape="rect" id="node4" href="$class_c_world.html#a72b79b6801a9e7ae670cc3790acf31d2" title="CWorld::getStoryline" alt="" coords="156,107,299,133"/>
+<area shape="rect" id="node5" href="$class_c_shopping.html#aa232d999181d07bfd6ec0ec5c645f51b" title="CShopping::update" alt="" coords="161,157,293,184"/>
+<area shape="rect" id="node6" href="$class_c_world.html#a1c10d5ec2514347fd3fe28f85b23db13" title="CWorld::getAllItemID" alt="" coords="156,208,299,235"/>
+</map>

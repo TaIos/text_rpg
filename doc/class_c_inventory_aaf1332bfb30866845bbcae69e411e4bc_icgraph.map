@@ -1,0 +1,9 @@
+<map id="CInventory::exportData" name="CInventory::exportData">
+<area shape="rect" id="node2" href="$class_c_hero.html#a1593ac4dfc01368e99b2b82a21c3c6ed" title="CHero::exportData" alt="" coords="207,31,336,57"/>
+<area shape="rect" id="node3" href="$class_c_game.html#a7d821ce9a0454653bbfde69979155da9" title="CGame::exportPlayerData" alt="" coords="384,31,559,57"/>
+<area shape="rect" id="node4" href="$class_c_game.html#a49656fe4404b3df63f2dbebd9b754edd" title="CGame::saveGame" alt="" coords="607,31,741,57"/>
+<area shape="rect" id="node5" href="$class_c_game.html#a714b291af5e20aae8be14a905fd0522d" title="CGame::tickComponent" alt="" coords="789,31,951,57"/>
+<area shape="rect" id="node6" href="$class_c_game.html#aa9d3da2fefa1c04faefc6586dbd37971" title="CGame::play" alt="" coords="999,56,1097,83"/>
+<area shape="rect" id="node7" href="$class_c_game.html#ac0a8028013ca5a7c135c29fa582df4a0" title="CGame::checkHeroStatus" alt="" coords="1145,5,1320,32"/>
+<area shape="rect" id="node8" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1207,56,1258,83"/>
+</map>

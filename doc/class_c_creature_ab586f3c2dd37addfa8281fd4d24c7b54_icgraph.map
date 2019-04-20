@@ -1,0 +1,4 @@
+<map id="CCreature::getAttack" name="CCreature::getAttack">
+<area shape="rect" id="node2" href="$class_c_fight.html#ac820b62e70990ddc90ecb959f4497f8f" title="CFight::execute" alt="" coords="336,5,451,32"/>
+<area shape="rect" id="node3" href="$class_c_hero.html#a7cda26a24b8e70fc2ffe829e9c984b7e" title="CHero::fight" alt="" coords="197,31,288,57"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="CShopping::buyItem" name="CShopping::buyItem">
+<area shape="rect" id="node2" href="$class_c_shopping.html#af06bd6ee3beb6ab523a4b7291a677201" title="CShopping::isInShop" alt="" coords="213,5,356,32"/>
+<area shape="rect" id="node3" href="$class_c_world.html#aae01822f61bfe35284a1ca9c02bdb1a5" title="CWorld::getItem" alt="" coords="227,56,343,83"/>
+<area shape="rect" id="node4" href="$class_c_item.html#ac4e9e3fe8b7110d7e89098fdc9cfe611" title="CItem::getPrice" alt="" coords="229,107,341,133"/>
+<area shape="rect" id="node5" href="$class_c_hero.html#a5e3ad0e205d7ac9e4fd2e021a5cc959e" title="CHero::getGold" alt="" coords="229,157,340,184"/>
+<area shape="rect" id="node6" href="$class_c_hero.html#a2968af0dfd838d16690dc67e652b6f89" title="CHero::getInventory" alt="" coords="217,208,352,235"/>
+<area shape="rect" id="node7" href="$class_c_inventory.html#aee94ee18f40ea685f640a15f8f6f75b9" title="CInventory::addItem" alt="" coords="217,259,353,285"/>
+<area shape="rect" id="node8" href="$class_c_item.html#aa1c149049fe94513681131f65c8fdd64" title="CItem::getID" alt="" coords="237,309,332,336"/>
+<area shape="rect" id="node9" href="$class_c_hero.html#a8568163de8d05b40e5c0b1d878472fd4" title="CHero::payGold" alt="" coords="227,360,342,387"/>
+<area shape="rect" id="node10" href="$class_c_display.html#a53b65673a9b0bfc807a3a1e448962928" title="CDisplay::printWithDelimiter" alt="" coords="192,411,377,437"/>
+<area shape="rect" id="node12" href="$class_c_item.html#a4287076827e954d45cfa45a7bcc10999" title="CItem::getName" alt="" coords="227,461,343,488"/>
+<area shape="rect" id="node13" href="$class_c_shopping.html#a83cfae0f7001775fc1d5a5dc097b3e96" title="CShopping::eraseItem" alt="" coords="209,512,360,539"/>
+<area shape="rect" id="node11" href="$class_c_display.html#af350b35b44fc756e0c721ec4ee56c67a" title="CDisplay::printDelimiter" alt="" coords="425,411,584,437"/>
+</map>

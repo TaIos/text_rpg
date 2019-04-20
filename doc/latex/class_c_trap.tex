@@ -1,0 +1,107 @@
+\hypertarget{class_c_trap}{}\section{C\+Trap Class Reference}
+\label{class_c_trap}\index{C\+Trap@{C\+Trap}}
+
+
+{\ttfamily \#include $<$Trap.\+h$>$}
+
+
+
+Inheritance diagram for C\+Trap\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=153pt]{class_c_trap__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for C\+Trap\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=235pt]{class_c_trap__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_trap_a25c6fff676697227814dd5fb5bfc6b9f}{C\+Trap}} (int id, std\+::string name, std\+::string \mbox{\hyperlink{class_c_event_a0126916c81d39bf5a4bcd18da90b7c61}{text}}, int dmg)
+\item 
+\mbox{\hyperlink{class_c_trap_ae87432a113f52437d8f686f53fa0a36c}{C\+Trap}} ()=delete
+\item 
+void \mbox{\hyperlink{class_c_trap_a64aba41bb1f7578d10e347358273acf4}{print}} (const \mbox{\hyperlink{class_c_display}{C\+Display}} \&display) const override
+\item 
+void \mbox{\hyperlink{class_c_trap_a0b0925310ffbfa28f877ac5669f8bb20}{execute}} (\mbox{\hyperlink{class_c_hero}{C\+Hero}} \&hero, const \mbox{\hyperlink{class_c_display}{C\+Display}} \&display, const std\+::map$<$ int, const \mbox{\hyperlink{class_c_event}{C\+Event}} $\ast$$>$ \&events, const std\+::map$<$ int, const \mbox{\hyperlink{class_c_creature}{C\+Creature}} $\ast$$>$ \&creatures) const override
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_c_trap_a491913fea694bfc0cf03a41421073dea}{damage}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_trap_a25c6fff676697227814dd5fb5bfc6b9f}\label{class_c_trap_a25c6fff676697227814dd5fb5bfc6b9f}} 
+\index{C\+Trap@{C\+Trap}!C\+Trap@{C\+Trap}}
+\index{C\+Trap@{C\+Trap}!C\+Trap@{C\+Trap}}
+\subsubsection{\texorpdfstring{C\+Trap()}{CTrap()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily C\+Trap\+::\+C\+Trap (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{std\+::string}]{name,  }\item[{std\+::string}]{text,  }\item[{int}]{dmg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_c_trap_ae87432a113f52437d8f686f53fa0a36c}\label{class_c_trap_ae87432a113f52437d8f686f53fa0a36c}} 
+\index{C\+Trap@{C\+Trap}!C\+Trap@{C\+Trap}}
+\index{C\+Trap@{C\+Trap}!C\+Trap@{C\+Trap}}
+\subsubsection{\texorpdfstring{C\+Trap()}{CTrap()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily C\+Trap\+::\+C\+Trap (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_trap_a0b0925310ffbfa28f877ac5669f8bb20}\label{class_c_trap_a0b0925310ffbfa28f877ac5669f8bb20}} 
+\index{C\+Trap@{C\+Trap}!execute@{execute}}
+\index{execute@{execute}!C\+Trap@{C\+Trap}}
+\subsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily void C\+Trap\+::execute (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_c_hero}{C\+Hero}} \&}]{hero,  }\item[{const \mbox{\hyperlink{class_c_display}{C\+Display}} \&}]{display,  }\item[{const std\+::map$<$ int, const \mbox{\hyperlink{class_c_event}{C\+Event}} $\ast$$>$ \&}]{events,  }\item[{const std\+::map$<$ int, const \mbox{\hyperlink{class_c_creature}{C\+Creature}} $\ast$$>$ \&}]{creatures }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_c_event_a46bd2925f7f19c5c0d6adf2b1e6e3f70}{C\+Event}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_trap_a0b0925310ffbfa28f877ac5669f8bb20_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_trap_a64aba41bb1f7578d10e347358273acf4}\label{class_c_trap_a64aba41bb1f7578d10e347358273acf4}} 
+\index{C\+Trap@{C\+Trap}!print@{print}}
+\index{print@{print}!C\+Trap@{C\+Trap}}
+\subsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void C\+Trap\+::print (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_c_display}{C\+Display}} \&}]{display }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_c_event_ad6f75aa0babcd74caff9426cecdd86f0}{C\+Event}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=263pt]{class_c_trap_a64aba41bb1f7578d10e347358273acf4_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_c_trap_a491913fea694bfc0cf03a41421073dea}\label{class_c_trap_a491913fea694bfc0cf03a41421073dea}} 
+\index{C\+Trap@{C\+Trap}!damage@{damage}}
+\index{damage@{damage}!C\+Trap@{C\+Trap}}
+\subsubsection{\texorpdfstring{damage}{damage}}
+{\footnotesize\ttfamily int C\+Trap\+::damage\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\mbox{\hyperlink{_trap_8h}{Trap.\+h}}\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\mbox{\hyperlink{_trap_8cpp}{Trap.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,128 @@
+\hypertarget{class_c_choice}{}\section{C\+Choice Class Reference}
+\label{class_c_choice}\index{C\+Choice@{C\+Choice}}
+
+
+{\ttfamily \#include $<$Choice.\+h$>$}
+
+
+
+Inheritance diagram for C\+Choice\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=153pt]{class_c_choice__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for C\+Choice\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{class_c_choice__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_choice_a41af6b55945769cf785d9de68fe43d6b}{C\+Choice}} (int id, std\+::string name, std\+::string \mbox{\hyperlink{class_c_event_a0126916c81d39bf5a4bcd18da90b7c61}{text}}, int optA, int optB)
+\item 
+\mbox{\hyperlink{class_c_choice_a5fd22c387feda4d5e050b9e0ce2bf22c}{C\+Choice}} ()=delete
+\item 
+void \mbox{\hyperlink{class_c_choice_a5280ff7c539ed8c8a4007ac38822d9b9}{print}} (const \mbox{\hyperlink{class_c_display}{C\+Display}} \&display) const override
+\item 
+void \mbox{\hyperlink{class_c_choice_aeccaa71a8fcd358215fe0ddbc37ab143}{execute}} (\mbox{\hyperlink{class_c_hero}{C\+Hero}} \&hero, const \mbox{\hyperlink{class_c_display}{C\+Display}} \&display, const std\+::map$<$ int, const \mbox{\hyperlink{class_c_event}{C\+Event}} $\ast$$>$ \&events, const std\+::map$<$ int, const \mbox{\hyperlink{class_c_creature}{C\+Creature}} $\ast$$>$ \&creatures) const override
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_c_choice_abca7c10fc012acfb1145ae7524050bc5}{optionA}}
+\item 
+int \mbox{\hyperlink{class_c_choice_a6343fc4edf568af23978d9df5f4b94b5}{optionB}}
+\item 
+\mbox{\hyperlink{_game_menus_8h_acdb545ed67596d0840e35ed209fecbe9}{multichoice}} \mbox{\hyperlink{class_c_choice_a80f4aa4ea3bb2ff9ae3f9e45fcc921ce}{options}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_choice_a41af6b55945769cf785d9de68fe43d6b}\label{class_c_choice_a41af6b55945769cf785d9de68fe43d6b}} 
+\index{C\+Choice@{C\+Choice}!C\+Choice@{C\+Choice}}
+\index{C\+Choice@{C\+Choice}!C\+Choice@{C\+Choice}}
+\subsubsection{\texorpdfstring{C\+Choice()}{CChoice()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily C\+Choice\+::\+C\+Choice (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{std\+::string}]{name,  }\item[{std\+::string}]{text,  }\item[{int}]{optA,  }\item[{int}]{optB }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_c_choice_a5fd22c387feda4d5e050b9e0ce2bf22c}\label{class_c_choice_a5fd22c387feda4d5e050b9e0ce2bf22c}} 
+\index{C\+Choice@{C\+Choice}!C\+Choice@{C\+Choice}}
+\index{C\+Choice@{C\+Choice}!C\+Choice@{C\+Choice}}
+\subsubsection{\texorpdfstring{C\+Choice()}{CChoice()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily C\+Choice\+::\+C\+Choice (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_choice_aeccaa71a8fcd358215fe0ddbc37ab143}\label{class_c_choice_aeccaa71a8fcd358215fe0ddbc37ab143}} 
+\index{C\+Choice@{C\+Choice}!execute@{execute}}
+\index{execute@{execute}!C\+Choice@{C\+Choice}}
+\subsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily void C\+Choice\+::execute (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_c_hero}{C\+Hero}} \&}]{hero,  }\item[{const \mbox{\hyperlink{class_c_display}{C\+Display}} \&}]{display,  }\item[{const std\+::map$<$ int, const \mbox{\hyperlink{class_c_event}{C\+Event}} $\ast$$>$ \&}]{events,  }\item[{const std\+::map$<$ int, const \mbox{\hyperlink{class_c_creature}{C\+Creature}} $\ast$$>$ \&}]{creatures }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_c_event_a46bd2925f7f19c5c0d6adf2b1e6e3f70}{C\+Event}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_choice_aeccaa71a8fcd358215fe0ddbc37ab143_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_choice_a5280ff7c539ed8c8a4007ac38822d9b9}\label{class_c_choice_a5280ff7c539ed8c8a4007ac38822d9b9}} 
+\index{C\+Choice@{C\+Choice}!print@{print}}
+\index{print@{print}!C\+Choice@{C\+Choice}}
+\subsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void C\+Choice\+::print (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_c_display}{C\+Display}} \&}]{display }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_c_event_ad6f75aa0babcd74caff9426cecdd86f0}{C\+Event}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{class_c_choice_a5280ff7c539ed8c8a4007ac38822d9b9_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_c_choice_abca7c10fc012acfb1145ae7524050bc5}\label{class_c_choice_abca7c10fc012acfb1145ae7524050bc5}} 
+\index{C\+Choice@{C\+Choice}!optionA@{optionA}}
+\index{optionA@{optionA}!C\+Choice@{C\+Choice}}
+\subsubsection{\texorpdfstring{optionA}{optionA}}
+{\footnotesize\ttfamily int C\+Choice\+::optionA\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_c_choice_a6343fc4edf568af23978d9df5f4b94b5}\label{class_c_choice_a6343fc4edf568af23978d9df5f4b94b5}} 
+\index{C\+Choice@{C\+Choice}!optionB@{optionB}}
+\index{optionB@{optionB}!C\+Choice@{C\+Choice}}
+\subsubsection{\texorpdfstring{optionB}{optionB}}
+{\footnotesize\ttfamily int C\+Choice\+::optionB\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_c_choice_a80f4aa4ea3bb2ff9ae3f9e45fcc921ce}\label{class_c_choice_a80f4aa4ea3bb2ff9ae3f9e45fcc921ce}} 
+\index{C\+Choice@{C\+Choice}!options@{options}}
+\index{options@{options}!C\+Choice@{C\+Choice}}
+\subsubsection{\texorpdfstring{options}{options}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_game_menus_8h_acdb545ed67596d0840e35ed209fecbe9}{multichoice}} C\+Choice\+::options\hspace{0.3cm}{\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= \{std::make\_pair(\textcolor{stringliteral}{"A"}, \mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a1657f5e177f996c23e33e1fdbef1a8ce}{action::choose\_option\_A}}),
+                           std::make\_pair(\textcolor{stringliteral}{"B"}, \mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a09728f3dc698db847abe108d25825ff4}{action::choose\_option\_B}})\}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\mbox{\hyperlink{_choice_8h}{Choice.\+h}}\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\mbox{\hyperlink{_choice_8cpp}{Choice.\+cpp}}\end{DoxyCompactItemize}

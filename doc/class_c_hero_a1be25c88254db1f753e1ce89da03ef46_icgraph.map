@@ -1,0 +1,9 @@
+<map id="CHero::getAttack" name="CHero::getAttack">
+<area shape="rect" id="node2" href="$class_c_hero.html#a7cda26a24b8e70fc2ffe829e9c984b7e" title="CHero::fight" alt="" coords="192,5,283,32"/>
+<area shape="rect" id="node4" href="$class_c_hero.html#a0232f04b4e49227ba90a8922135d4102" title="CHero::printStats" alt="" coords="176,56,299,83"/>
+<area shape="rect" id="node3" href="$class_c_fight.html#ac820b62e70990ddc90ecb959f4497f8f" title="CFight::execute" alt="" coords="370,5,485,32"/>
+<area shape="rect" id="node5" href="$class_c_game.html#a714b291af5e20aae8be14a905fd0522d" title="CGame::tickComponent" alt="" coords="347,56,508,83"/>
+<area shape="rect" id="node6" href="$class_c_game.html#aa9d3da2fefa1c04faefc6586dbd37971" title="CGame::play" alt="" coords="556,81,655,108"/>
+<area shape="rect" id="node7" href="$class_c_game.html#ac0a8028013ca5a7c135c29fa582df4a0" title="CGame::checkHeroStatus" alt="" coords="703,31,877,57"/>
+<area shape="rect" id="node8" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="765,81,815,108"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="CStoryline::exportData" name="CStoryline::exportData">
+<area shape="rect" id="node2" href="$class_c_game.html#a7d821ce9a0454653bbfde69979155da9" title="CGame::exportPlayerData" alt="" coords="207,31,381,57"/>
+<area shape="rect" id="node3" href="$class_c_game.html#a49656fe4404b3df63f2dbebd9b754edd" title="CGame::saveGame" alt="" coords="429,31,564,57"/>
+<area shape="rect" id="node4" href="$class_c_game.html#a714b291af5e20aae8be14a905fd0522d" title="CGame::tickComponent" alt="" coords="612,31,773,57"/>
+<area shape="rect" id="node5" href="$class_c_game.html#aa9d3da2fefa1c04faefc6586dbd37971" title="CGame::play" alt="" coords="821,56,920,83"/>
+<area shape="rect" id="node6" href="$class_c_game.html#ac0a8028013ca5a7c135c29fa582df4a0" title="CGame::checkHeroStatus" alt="" coords="968,5,1143,32"/>
+<area shape="rect" id="node7" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1030,56,1081,83"/>
+</map>

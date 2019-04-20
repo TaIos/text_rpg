@@ -1,0 +1,7 @@
+<map id="CHero::fight" name="CHero::fight">
+<area shape="rect" id="node2" href="$class_c_creature.html#ab586f3c2dd37addfa8281fd4d24c7b54" title="CCreature::getAttack" alt="" coords="144,5,288,32"/>
+<area shape="rect" id="node3" href="$class_c_hero.html#a50d1e46ce5b1d84c6ed04493f1d71f81" title="CHero::getArmour" alt="" coords="153,56,279,83"/>
+<area shape="rect" id="node5" href="$class_c_hero.html#a1be25c88254db1f753e1ce89da03ef46" title="CHero::getAttack" alt="" coords="155,107,277,133"/>
+<area shape="rect" id="node4" href="$class_c_equipment.html#a27e962aead56bb39886acc86c17b7478" title="CEquipment::getArmour" alt="" coords="336,56,497,83"/>
+<area shape="rect" id="node6" href="$class_c_equipment.html#a6b27732ece0ab3c74bff006093dc5a7d" title="CEquipment::getAttack" alt="" coords="338,107,495,133"/>
+</map>

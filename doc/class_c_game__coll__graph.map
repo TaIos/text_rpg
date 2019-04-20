@@ -1,0 +1,15 @@
+<map id="CGame" name="CGame">
+<area shape="rect" id="node2" href="$class_c_inventory_browser.html" title="{CInventoryBrowser\n||+ operator()()\l# equip()\l# printInventory()\l# printHelp()\l}" alt="" coords="99,795,228,917"/>
+<area shape="rect" id="node3" href="$class_c_interact.html" title="{CInteract\n||+ operator()()\l}" alt="" coords="253,817,351,895"/>
+<area shape="rect" id="node4" href="$class_c_hero.html" title="{CHero\n||+ CHero()\l+ CHero()\l+ exportData()\l+ update()\l+ fight()\l+ useItem()\l+ sufferDamage()\l+ isDead()\l+ getGold()\l+ getName()\l+ payGold()\l+ addGold()\l+ addXP()\l+ getAttack()\l+ getArmour()\l+ getInventory()\l+ printStats()\l}" alt="" coords="488,700,609,1012"/>
+<area shape="rect" id="node5" href="$class_c_inventory.html" title="{CInventory\n||+ exportData()\l+ addItem()\l+ removeItem()\l+ isInInventory()\l+ isEmpty()\l+ update()\l+ update()\l+ getItemsID()\l}" alt="" coords="87,277,200,457"/>
+<area shape="rect" id="node24" href="$class_c_shopping.html" title="{CShopping\n||+ CShopping()\l+ operator()()\l+ update()\l# eraseItem()\l# buyItem()\l# printHelp()\l# printItems()\l# isInShop()\l}" alt="" coords="5,496,111,676"/>
+<area shape="rect" id="node7" href="$struct_hero_stats.html" title="{HeroStats\n||+ exportData()\l+ levelUp()\l}" alt="" coords="309,321,415,413"/>
+<area shape="rect" id="node10" href="$class_c_equipment.html" title="{CEquipment\n||+ CEquipment()\l+ setAttack()\l+ getAttack()\l+ getArmour()\l+ setArmour()\l}" alt="" coords="439,299,552,435"/>
+<area shape="rect" id="node11" href="$class_c_game_menus.html" title="{CGameMenus\n||+ CGameMenus()\l}" alt="" coords="669,329,794,406"/>
+<area shape="rect" id="node13" href="$class_c_storyline.html" title="{CStoryline\n||+ getCurrentEvent()\l+ getEventCount()\l+ moveToNextEvent()\l+ exportData()\l+ update()\l}" alt="" coords="787,788,932,924"/>
+<area shape="rect" id="node18" href="$class_c_world.html" title="{CWorld\n||+ ~CWorld()\l+ loadWorld()\l+ getItem()\l+ getItemName()\l+ getAllItemID()\l+ getEvent()\l+ getAllEvents()\l+ getCreature()\l+ getAllCreatures()\l+ getStoryline()\l# loadEvents()\l# loadItems()\l# loadCreatures()\l# loadStoryline()\l# validateIDs()\l}" alt="" coords="1259,715,1390,997"/>
+<area shape="rect" id="node15" href="$class_c_display.html" title="{CDisplay\n||+ CDisplay()\l+ multiChoice()\l+ getString()\l+ getNumber()\l+ wait()\l+ print()\l+ printDelimiter()\l+ printWithDelimiter()\l+ printError()\l+ dumpToNewLine()\l}" alt="" coords="1712,263,1857,472"/>
+<area shape="rect" id="node20" href="$class_i_ohandle.html" title="{IOhandle\n||+ loadEvent()\l+ loadEventOrder()\l+ loadCreature()\l+ loadShopItem()\l# dumpLine()\l}" alt="" coords="1354,299,1485,435"/>
+<area shape="rect" id="node23" href="$class_c_stream_decoder.html" title="{CStreamDecoder\n||+ getStringAsInt()\l+ getString()\l+ getText()\l+ getNumbers()\l+ getNumbers()\l+ getNumbersAsString()\l+ decodePlayerData()\l}" alt="" coords="1882,285,2045,450"/>
+</map>

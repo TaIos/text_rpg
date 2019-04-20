@@ -1,0 +1,126 @@
+\hypertarget{class_c_armour}{}\section{C\+Armour Class Reference}
+\label{class_c_armour}\index{C\+Armour@{C\+Armour}}
+
+
+{\ttfamily \#include $<$Armour.\+h$>$}
+
+
+
+Inheritance diagram for C\+Armour\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=167pt]{class_c_armour__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for C\+Armour\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{class_c_armour__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_armour_a4d9522bb2d9b8c4d111a8a8c446d23a1}{C\+Armour}} ()=default
+\item 
+\mbox{\hyperlink{class_c_armour_a9bc0c6d2b7225cd2b15397006916cd1b}{C\+Armour}} (int id, int \mbox{\hyperlink{class_c_item_ad2512107bbbb688e9141a5d5ea6d47de}{price}}, int def, std\+::string \mbox{\hyperlink{class_c_item_a4d8b073203d9d09291e0fd07f4bcc479}{name}})
+\item 
+void \mbox{\hyperlink{class_c_armour_ab1000a6cfe419ca94b1254217fb707cd}{use\+Item}} (\mbox{\hyperlink{struct_hero_stats}{Hero\+Stats}} \&stats, \mbox{\hyperlink{class_c_equipment}{C\+Equipment}} \&equipment) const override
+\item 
+void \mbox{\hyperlink{class_c_armour_a169305bd938dfcf38365883b65312068}{print}} (const \mbox{\hyperlink{class_c_display}{C\+Display}} \&display) const override
+\item 
+void \mbox{\hyperlink{class_c_armour_a3abc5a20200d572d920737aec75bb196}{print\+For\+Shop}} (const \mbox{\hyperlink{class_c_display}{C\+Display}} \&display) const override
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_c_armour_ad071169660d837db44ff38e73c92dd10}{defense}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_armour_a4d9522bb2d9b8c4d111a8a8c446d23a1}\label{class_c_armour_a4d9522bb2d9b8c4d111a8a8c446d23a1}} 
+\index{C\+Armour@{C\+Armour}!C\+Armour@{C\+Armour}}
+\index{C\+Armour@{C\+Armour}!C\+Armour@{C\+Armour}}
+\subsubsection{\texorpdfstring{C\+Armour()}{CArmour()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily C\+Armour\+::\+C\+Armour (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+\mbox{\Hypertarget{class_c_armour_a9bc0c6d2b7225cd2b15397006916cd1b}\label{class_c_armour_a9bc0c6d2b7225cd2b15397006916cd1b}} 
+\index{C\+Armour@{C\+Armour}!C\+Armour@{C\+Armour}}
+\index{C\+Armour@{C\+Armour}!C\+Armour@{C\+Armour}}
+\subsubsection{\texorpdfstring{C\+Armour()}{CArmour()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily C\+Armour\+::\+C\+Armour (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{int}]{price,  }\item[{int}]{def,  }\item[{std\+::string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_armour_a169305bd938dfcf38365883b65312068}\label{class_c_armour_a169305bd938dfcf38365883b65312068}} 
+\index{C\+Armour@{C\+Armour}!print@{print}}
+\index{print@{print}!C\+Armour@{C\+Armour}}
+\subsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void C\+Armour\+::print (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_c_display}{C\+Display}} \&}]{display }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_c_item_af35b9c64f05a8377298505b3a81bcd18}{C\+Item}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=276pt]{class_c_armour_a169305bd938dfcf38365883b65312068_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_armour_a3abc5a20200d572d920737aec75bb196}\label{class_c_armour_a3abc5a20200d572d920737aec75bb196}} 
+\index{C\+Armour@{C\+Armour}!print\+For\+Shop@{print\+For\+Shop}}
+\index{print\+For\+Shop@{print\+For\+Shop}!C\+Armour@{C\+Armour}}
+\subsubsection{\texorpdfstring{print\+For\+Shop()}{printForShop()}}
+{\footnotesize\ttfamily void C\+Armour\+::print\+For\+Shop (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_c_display}{C\+Display}} \&}]{display }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_c_item_af56df4ab4d87984c56401231dd3492cf}{C\+Item}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{class_c_armour_a3abc5a20200d572d920737aec75bb196_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_armour_ab1000a6cfe419ca94b1254217fb707cd}\label{class_c_armour_ab1000a6cfe419ca94b1254217fb707cd}} 
+\index{C\+Armour@{C\+Armour}!use\+Item@{use\+Item}}
+\index{use\+Item@{use\+Item}!C\+Armour@{C\+Armour}}
+\subsubsection{\texorpdfstring{use\+Item()}{useItem()}}
+{\footnotesize\ttfamily void C\+Armour\+::use\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_hero_stats}{Hero\+Stats}} \&}]{stats,  }\item[{\mbox{\hyperlink{class_c_equipment}{C\+Equipment}} \&}]{equipment }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_c_item_a30e8dd9608c78cd43e5c973bfe029baa}{C\+Item}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{class_c_armour_ab1000a6cfe419ca94b1254217fb707cd_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_c_armour_ad071169660d837db44ff38e73c92dd10}\label{class_c_armour_ad071169660d837db44ff38e73c92dd10}} 
+\index{C\+Armour@{C\+Armour}!defense@{defense}}
+\index{defense@{defense}!C\+Armour@{C\+Armour}}
+\subsubsection{\texorpdfstring{defense}{defense}}
+{\footnotesize\ttfamily int C\+Armour\+::defense\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\mbox{\hyperlink{_armour_8h}{Armour.\+h}}\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\mbox{\hyperlink{_armour_8cpp}{Armour.\+cpp}}\end{DoxyCompactItemize}

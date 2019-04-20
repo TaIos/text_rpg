@@ -1,0 +1,7 @@
+<map id="CTrap::execute" name="CTrap::execute">
+<area shape="rect" id="node2" href="$class_c_display.html#a53b65673a9b0bfc807a3a1e448962928" title="CDisplay::printWithDelimiter" alt="" coords="164,5,349,32"/>
+<area shape="rect" id="node3" href="$class_c_display.html#af350b35b44fc756e0c721ec4ee56c67a" title="CDisplay::printDelimiter" alt="" coords="397,31,556,57"/>
+<area shape="rect" id="node4" href="$class_c_hero.html#a9442ae76d634a968c99d6bc77c927f96" title="CHero::sufferDamage" alt="" coords="184,107,329,133"/>
+<area shape="rect" id="node5" href="$class_c_hero.html#acf265a146732ccfe08db87b6cc69cef3" title="CHero::isDead" alt="" coords="203,157,310,184"/>
+<area shape="rect" id="node6" href="$class_c_display.html#a54c5d36f4bc11d4a935ff5c86ea4e653" title="CDisplay::print" alt="" coords="203,208,310,235"/>
+</map>

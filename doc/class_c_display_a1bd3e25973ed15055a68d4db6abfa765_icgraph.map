@@ -1,0 +1,12 @@
+<map id="CDisplay::getString" name="CDisplay::getString">
+<area shape="rect" id="node2" href="$class_c_game.html#a21a30939333b2c98f607d9bd2927d105" title="CGame::createHero" alt="" coords="193,107,331,133"/>
+<area shape="rect" id="node8" href="$class_c_game.html#accda079824fc813cbd64b4743846ae24" title="CGame::loadGame" alt="" coords="195,157,329,184"/>
+<area shape="rect" id="node9" href="$class_c_game.html#a49656fe4404b3df63f2dbebd9b754edd" title="CGame::saveGame" alt="" coords="384,208,519,235"/>
+<area shape="rect" id="node10" href="$class_c_inventory_browser.html#a91c51766048ba5629b125b9a444d31bb" title="CInventoryBrowser::\loperator()" alt="" coords="193,259,331,301"/>
+<area shape="rect" id="node11" href="$class_c_shopping.html#ab72dff2e94f897bd5c3f1ef660e65afb" title="CShopping::operator()" alt="" coords="188,325,336,352"/>
+<area shape="rect" id="node3" href="$class_c_game.html#a39e1e296c6dcabbf5c824eea6424d6d9" title="CGame::mainMenu" alt="" coords="384,132,519,159"/>
+<area shape="rect" id="node4" href="$class_c_game.html#aa9d3da2fefa1c04faefc6586dbd37971" title="CGame::play" alt="" coords="567,81,665,108"/>
+<area shape="rect" id="node6" href="$class_c_game.html#a714b291af5e20aae8be14a905fd0522d" title="CGame::tickComponent" alt="" coords="936,132,1097,159"/>
+<area shape="rect" id="node5" href="$class_c_game.html#ac0a8028013ca5a7c135c29fa582df4a0" title="CGame::checkHeroStatus" alt="" coords="713,5,888,32"/>
+<area shape="rect" id="node7" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="775,56,826,83"/>
+</map>

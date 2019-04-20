@@ -1,0 +1,8 @@
+<map id="CWorld::getAllItemID" name="CWorld::getAllItemID">
+<area shape="rect" id="node2" href="$class_c_game.html#acdb5a10d8b17584b07b3c736ede7bf57" title="CGame::reset" alt="" coords="196,107,299,133"/>
+<area shape="rect" id="node3" href="$class_c_game.html#a714b291af5e20aae8be14a905fd0522d" title="CGame::tickComponent" alt="" coords="347,56,508,83"/>
+<area shape="rect" id="node5" href="$class_c_game.html#ac0a8028013ca5a7c135c29fa582df4a0" title="CGame::checkHeroStatus" alt="" coords="703,56,877,83"/>
+<area shape="rect" id="node7" href="$class_c_game.html#af5435e79a93dd92991ae24b499976470" title="CGame::CGame" alt="" coords="368,157,487,184"/>
+<area shape="rect" id="node4" href="$class_c_game.html#aa9d3da2fefa1c04faefc6586dbd37971" title="CGame::play" alt="" coords="556,5,655,32"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="765,5,815,32"/>
+</map>

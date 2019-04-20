@@ -1,0 +1,4 @@
+<map id="CItem::printForShop" name="CItem::printForShop">
+<area shape="rect" id="node2" href="$class_c_shopping.html#acfb04014dcfe9b4ddca2206a567112c9" title="CShopping::printItems" alt="" coords="192,5,343,32"/>
+<area shape="rect" id="node3" href="$class_c_shopping.html#ab72dff2e94f897bd5c3f1ef660e65afb" title="CShopping::operator()" alt="" coords="391,5,539,32"/>
+</map>

@@ -1,0 +1,115 @@
+\hypertarget{class_c_event}{}\section{C\+Event Class Reference}
+\label{class_c_event}\index{C\+Event@{C\+Event}}
+
+
+{\ttfamily \#include $<$Event.\+h$>$}
+
+
+
+Inheritance diagram for C\+Event\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_event__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for C\+Event\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{class_c_event__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_event_a1adde3f0aa3a249b5ebd96d8b58f25d9}{C\+Event}} (int id, std\+::string name, std\+::string words)
+\item 
+virtual \mbox{\hyperlink{class_c_event_a6e20daa780afcb3927b14649d70364c7}{$\sim$\+C\+Event}} ()=default
+\item 
+virtual void \mbox{\hyperlink{class_c_event_ad6f75aa0babcd74caff9426cecdd86f0}{print}} (const \mbox{\hyperlink{class_c_display}{C\+Display}} \&display) const =0
+\item 
+virtual void \mbox{\hyperlink{class_c_event_a46bd2925f7f19c5c0d6adf2b1e6e3f70}{execute}} (\mbox{\hyperlink{class_c_hero}{C\+Hero}} \&hero, const \mbox{\hyperlink{class_c_display}{C\+Display}} \&display, const std\+::map$<$ int, const \mbox{\hyperlink{class_c_event}{C\+Event}} $\ast$$>$ \&events, const std\+::map$<$ int, const \mbox{\hyperlink{class_c_creature}{C\+Creature}} $\ast$$>$ \&creatures) const =0
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_c_event_a606d5ce523c07656aae583232d496052}{event\+ID}}
+\item 
+std\+::string \mbox{\hyperlink{class_c_event_a656665a83f6b4ab7756235588f2017e3}{event\+Name}}
+\item 
+std\+::string \mbox{\hyperlink{class_c_event_a0126916c81d39bf5a4bcd18da90b7c61}{text}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_event_a1adde3f0aa3a249b5ebd96d8b58f25d9}\label{class_c_event_a1adde3f0aa3a249b5ebd96d8b58f25d9}} 
+\index{C\+Event@{C\+Event}!C\+Event@{C\+Event}}
+\index{C\+Event@{C\+Event}!C\+Event@{C\+Event}}
+\subsubsection{\texorpdfstring{C\+Event()}{CEvent()}}
+{\footnotesize\ttfamily C\+Event\+::\+C\+Event (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{std\+::string}]{name,  }\item[{std\+::string}]{words }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_c_event_a6e20daa780afcb3927b14649d70364c7}\label{class_c_event_a6e20daa780afcb3927b14649d70364c7}} 
+\index{C\+Event@{C\+Event}!````~C\+Event@{$\sim$\+C\+Event}}
+\index{````~C\+Event@{$\sim$\+C\+Event}!C\+Event@{C\+Event}}
+\subsubsection{\texorpdfstring{$\sim$\+C\+Event()}{~CEvent()}}
+{\footnotesize\ttfamily virtual C\+Event\+::$\sim$\+C\+Event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [default]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_event_a46bd2925f7f19c5c0d6adf2b1e6e3f70}\label{class_c_event_a46bd2925f7f19c5c0d6adf2b1e6e3f70}} 
+\index{C\+Event@{C\+Event}!execute@{execute}}
+\index{execute@{execute}!C\+Event@{C\+Event}}
+\subsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily virtual void C\+Event\+::execute (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_c_hero}{C\+Hero}} \&}]{hero,  }\item[{const \mbox{\hyperlink{class_c_display}{C\+Display}} \&}]{display,  }\item[{const std\+::map$<$ int, const \mbox{\hyperlink{class_c_event}{C\+Event}} $\ast$$>$ \&}]{events,  }\item[{const std\+::map$<$ int, const \mbox{\hyperlink{class_c_creature}{C\+Creature}} $\ast$$>$ \&}]{creatures }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_c_fight_ac820b62e70990ddc90ecb959f4497f8f}{C\+Fight}}, \mbox{\hyperlink{class_c_choice_aeccaa71a8fcd358215fe0ddbc37ab143}{C\+Choice}}, \mbox{\hyperlink{class_c_dialogue_n_p_c_a6a7d83e9c13789f6804a8b5323d572f8}{C\+Dialogue\+N\+PC}}, and \mbox{\hyperlink{class_c_trap_a0b0925310ffbfa28f877ac5669f8bb20}{C\+Trap}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=307pt]{class_c_event_a46bd2925f7f19c5c0d6adf2b1e6e3f70_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_event_ad6f75aa0babcd74caff9426cecdd86f0}\label{class_c_event_ad6f75aa0babcd74caff9426cecdd86f0}} 
+\index{C\+Event@{C\+Event}!print@{print}}
+\index{print@{print}!C\+Event@{C\+Event}}
+\subsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily virtual void C\+Event\+::print (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_c_display}{C\+Display}} \&}]{display }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_c_fight_a70c350b815744b481134b4d3ac0f61bb}{C\+Fight}}, \mbox{\hyperlink{class_c_choice_a5280ff7c539ed8c8a4007ac38822d9b9}{C\+Choice}}, \mbox{\hyperlink{class_c_dialogue_n_p_c_a1deb79509daa19585916a308c9b42e9c}{C\+Dialogue\+N\+PC}}, and \mbox{\hyperlink{class_c_trap_a64aba41bb1f7578d10e347358273acf4}{C\+Trap}}.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_c_event_a606d5ce523c07656aae583232d496052}\label{class_c_event_a606d5ce523c07656aae583232d496052}} 
+\index{C\+Event@{C\+Event}!event\+ID@{event\+ID}}
+\index{event\+ID@{event\+ID}!C\+Event@{C\+Event}}
+\subsubsection{\texorpdfstring{event\+ID}{eventID}}
+{\footnotesize\ttfamily int C\+Event\+::event\+ID\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_c_event_a656665a83f6b4ab7756235588f2017e3}\label{class_c_event_a656665a83f6b4ab7756235588f2017e3}} 
+\index{C\+Event@{C\+Event}!event\+Name@{event\+Name}}
+\index{event\+Name@{event\+Name}!C\+Event@{C\+Event}}
+\subsubsection{\texorpdfstring{event\+Name}{eventName}}
+{\footnotesize\ttfamily std\+::string C\+Event\+::event\+Name\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_c_event_a0126916c81d39bf5a4bcd18da90b7c61}\label{class_c_event_a0126916c81d39bf5a4bcd18da90b7c61}} 
+\index{C\+Event@{C\+Event}!text@{text}}
+\index{text@{text}!C\+Event@{C\+Event}}
+\subsubsection{\texorpdfstring{text}{text}}
+{\footnotesize\ttfamily std\+::string C\+Event\+::text\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\mbox{\hyperlink{_event_8h}{Event.\+h}}\end{DoxyCompactItemize}

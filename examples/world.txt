@@ -1,0 +1,117 @@
+creature 0
+<crocodile>
+<Arg ... arg ... arg ... >
+attack 15
+reward 10
+#
+creature 1
+<troll>
+<Ah dinner !>
+attack 30
+rewart 50
+#
+creature 99
+<PROGTEST dragon>
+<You shall not pass!>
+attack 666
+reward 666
+#
+shop_item 0 sword
+<PROGTEST killer>
+price 666
+attack 666
+#
+shop_item 1 armour
+<PROGTEST armour>
+price 666
+defense 666
+#
+shop_item 2 sword
+<wooden sword>
+price 1
+attack 15
+#
+shop_item 3 armour
+<basic armour>
+price 1
+defense 3
+#
+shop_item 4 sword
+<basic sword>
+price 2
+attack 5
+#
+event_order 0 1 2 3 4 5 6 42 ;
+#
+event 0 dialogue
+<First Day>
+<Welcome the Kingdom of FOO. You can explorere this land as you wish noble knight! Just be careful, you never know which beast you will come across.>
+#
+event 1 choice
+<Easy choice>
+<As you wondered, there are two ways, first leads to the swamp(A), second leads to the forest(B), which one will you choose ?>
+A 20
+B 21
+#
+event 20 fight
+<Fight in the swamp>
+<Oh no, there was a horrible creature in the swamp.>
+creature 0
+#
+event 21 dialogue
+<Nothing>
+<There was nothing in the forest, just trees. It was complete waste of time. Maybe you will be lucky nexttime.>
+#
+event 2 choice
+<Mountains>
+<There is a mountain with cave in it. Do you want to go to the cave(A) or continue(B) wondering?>
+A 99
+B 23
+#
+event 99 fight
+<Cave in the mountains>
+<As you went into the cave ... DRAGON !!! It is the mighty PROGTEST dragon, many young knights have fallen to this ferocious beast.>
+creature 99
+#
+event 23 dialogue
+<Nothing>
+<You are wondering next, but as you looked back on the mountain, you saw a dragon on the top. You were lucky you didn't go there.>
+#
+event 3 trap
+<Trap>
+<As you went, you stepped on the trap.>
+demage 10
+#
+event 4 fight
+<Under the bridge>
+<As you were crossing the bringo ... TROLL!>
+creature 1
+#
+event 5 trap
+<Trap>
+<Oh no, another trap, you didn't see this coming.>
+demage 10
+#
+event 6 dialogue
+<Wizard>
+<Hi, I am mighty wizard of FOO! If you answer my question correctly, you will win this game, otherwise you will DIE.>
+#
+event 42 choice
+<Tricky question>
+<What is the answer to the Ultimate Question of Life, the Universe, and Everything ? Is it 42(A) or something else(B) ?>
+A 101
+B 102
+#
+event 101 dialogue
+<Correct>
+<This is the right answer!>
+#
+event 102 trap
+<Wrong answer>
+<This is wrong answer hero ... YOU DIE>
+demage 42000
+END
+
+
+
+

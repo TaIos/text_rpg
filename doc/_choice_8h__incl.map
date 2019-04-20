@@ -1,0 +1,16 @@
+<map id="E:/Dropbox/BI_FIT_CVUT/2. semestr/PA2/GameBook/Choice.h" name="E:/Dropbox/BI_FIT_CVUT/2. semestr/PA2/GameBook/Choice.h">
+<area shape="rect" id="node3" href="$_event_8h.html" title="Event.h" alt="" coords="491,109,557,136"/>
+<area shape="rect" id="node10" href="$_game_menus_8h.html" title="GameMenus.h" alt="" coords="1132,483,1239,509"/>
+<area shape="rect" id="node5" href="$_display_8h.html" title="Display.h" alt="" coords="958,408,1034,435"/>
+<area shape="rect" id="node11" href="$_hero_8h.html" title="Hero.h" alt="" coords="533,184,593,211"/>
+<area shape="rect" id="node8" href="$_actions_list_8h.html" title="ActionsList.h" alt="" coords="1181,557,1280,584"/>
+<area shape="rect" id="node9" href="$_errors_list_8h.html" title="ErrorsList.h" alt="" coords="917,483,1006,509"/>
+<area shape="rect" id="node13" href="$_creature_8h.html" title="Creature.h" alt="" coords="701,333,784,360"/>
+<area shape="rect" id="node14" href="$_inventory_8h.html" title="Inventory.h" alt="" coords="582,408,666,435"/>
+<area shape="rect" id="node16" href="$_armour_8h.html" title="Armour.h" alt="" coords="451,259,525,285"/>
+<area shape="rect" id="node17" href="$_item_8h.html" title="Item.h" alt="" coords="363,333,421,360"/>
+<area shape="rect" id="node18" href="$_equipment_8h.html" title="Equipment.h" alt="" coords="259,408,354,435"/>
+<area shape="rect" id="node19" href="$_hero_stats_8h.html" title="HeroStats.h" alt="" coords="144,408,235,435"/>
+<area shape="rect" id="node20" href="$_sword_8h.html" title="Sword.h" alt="" coords="357,259,427,285"/>
+<area shape="rect" id="node21" href="$_stream_decoder_8h.html" title="StreamDecoder.h" alt="" coords="691,408,813,435"/>
+</map>

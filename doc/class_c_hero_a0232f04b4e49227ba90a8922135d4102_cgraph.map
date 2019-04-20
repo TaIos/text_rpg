@@ -1,0 +1,8 @@
+<map id="CHero::printStats" name="CHero::printStats">
+<area shape="rect" id="node2" href="$class_c_display.html#a53b65673a9b0bfc807a3a1e448962928" title="CDisplay::printWithDelimiter" alt="" coords="176,5,361,32"/>
+<area shape="rect" id="node4" href="$class_c_hero.html#a1be25c88254db1f753e1ce89da03ef46" title="CHero::getAttack" alt="" coords="207,56,330,83"/>
+<area shape="rect" id="node6" href="$class_c_hero.html#a50d1e46ce5b1d84c6ed04493f1d71f81" title="CHero::getArmour" alt="" coords="205,107,332,133"/>
+<area shape="rect" id="node3" href="$class_c_display.html#af350b35b44fc756e0c721ec4ee56c67a" title="CDisplay::printDelimiter" alt="" coords="411,5,569,32"/>
+<area shape="rect" id="node5" href="$class_c_equipment.html#a6b27732ece0ab3c74bff006093dc5a7d" title="CEquipment::getAttack" alt="" coords="411,56,569,83"/>
+<area shape="rect" id="node7" href="$class_c_equipment.html#a27e962aead56bb39886acc86c17b7478" title="CEquipment::getArmour" alt="" coords="409,107,571,133"/>
+</map>

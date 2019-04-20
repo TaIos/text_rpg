@@ -1,0 +1,37 @@
+\hypertarget{class_c_armour}{}\section{C\+Armour Class Reference}
+\label{class_c_armour}\index{C\+Armour@{C\+Armour}}
+
+
+Inheritance diagram for C\+Armour\+:
+% FIG 0
+
+
+Collaboration diagram for C\+Armour\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_c_armour_a9bc0c6d2b7225cd2b15397006916cd1b}\label{class_c_armour_a9bc0c6d2b7225cd2b15397006916cd1b}} 
+{\bfseries C\+Armour} (int id, int price, int def, std\+::string name)
+\item 
+\mbox{\Hypertarget{class_c_armour_ab1000a6cfe419ca94b1254217fb707cd}\label{class_c_armour_ab1000a6cfe419ca94b1254217fb707cd}} 
+void {\bfseries use\+Item} (\mbox{\hyperlink{struct_hero_stats}{Hero\+Stats}} \&stats, \mbox{\hyperlink{class_c_equipment}{C\+Equipment}} \&equipment) const override
+\item 
+\mbox{\Hypertarget{class_c_armour_a169305bd938dfcf38365883b65312068}\label{class_c_armour_a169305bd938dfcf38365883b65312068}} 
+void {\bfseries print} (const \mbox{\hyperlink{class_c_display}{C\+Display}} \&display) const override
+\item 
+\mbox{\Hypertarget{class_c_armour_a3abc5a20200d572d920737aec75bb196}\label{class_c_armour_a3abc5a20200d572d920737aec75bb196}} 
+void {\bfseries print\+For\+Shop} (const \mbox{\hyperlink{class_c_display}{C\+Display}} \&display) const override
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_c_armour_ad071169660d837db44ff38e73c92dd10}\label{class_c_armour_ad071169660d837db44ff38e73c92dd10}} 
+int {\bfseries defense}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/Armour.\+h\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/Armour.\+cpp\end{DoxyCompactItemize}

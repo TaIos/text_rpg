@@ -1,0 +1,4 @@
+<map id="CShopping::isInShop" name="CShopping::isInShop">
+<area shape="rect" id="node2" href="$class_c_shopping.html#a0981a7916cca8a37beb35858ad2ec77e" title="CShopping::buyItem" alt="" coords="196,5,335,32"/>
+<area shape="rect" id="node3" href="$class_c_shopping.html#ab72dff2e94f897bd5c3f1ef660e65afb" title="CShopping::operator()" alt="" coords="383,5,531,32"/>
+</map>

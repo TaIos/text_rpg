@@ -1,0 +1,121 @@
+\hypertarget{class_c_fight}{}\section{C\+Fight Class Reference}
+\label{class_c_fight}\index{C\+Fight@{C\+Fight}}
+
+
+{\ttfamily \#include $<$Fight.\+h$>$}
+
+
+
+Inheritance diagram for C\+Fight\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{class_c_fight__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for C\+Fight\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_fight__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_fight_ab5f2b154ef7919c84728ffb2a20843d3}{C\+Fight}} (int id, std\+::string name, std\+::string \mbox{\hyperlink{class_c_event_a0126916c81d39bf5a4bcd18da90b7c61}{text}}, int id\+Creature)
+\item 
+\mbox{\hyperlink{class_c_fight_a6ab8b9fa1fbc6e2a3fae840f738b9143}{C\+Fight}} ()=delete
+\item 
+void \mbox{\hyperlink{class_c_fight_a70c350b815744b481134b4d3ac0f61bb}{print}} (const \mbox{\hyperlink{class_c_display}{C\+Display}} \&display) const override
+\item 
+void \mbox{\hyperlink{class_c_fight_ac820b62e70990ddc90ecb959f4497f8f}{execute}} (\mbox{\hyperlink{class_c_hero}{C\+Hero}} \&hero, const \mbox{\hyperlink{class_c_display}{C\+Display}} \&display, const std\+::map$<$ int, const \mbox{\hyperlink{class_c_event}{C\+Event}} $\ast$$>$ \&events, const std\+::map$<$ int, const \mbox{\hyperlink{class_c_creature}{C\+Creature}} $\ast$$>$ \&creatures) const override
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_c_fight_a986de57fedf8056ccec818146406efd2}{creature\+ID}}
+\item 
+\mbox{\hyperlink{_game_menus_8h_acdb545ed67596d0840e35ed209fecbe9}{multichoice}} \mbox{\hyperlink{class_c_fight_ae7e8bdccd47c1064a04668ab1d6af255}{enemy\+Encounter\+Choice}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_fight_ab5f2b154ef7919c84728ffb2a20843d3}\label{class_c_fight_ab5f2b154ef7919c84728ffb2a20843d3}} 
+\index{C\+Fight@{C\+Fight}!C\+Fight@{C\+Fight}}
+\index{C\+Fight@{C\+Fight}!C\+Fight@{C\+Fight}}
+\subsubsection{\texorpdfstring{C\+Fight()}{CFight()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily C\+Fight\+::\+C\+Fight (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{std\+::string}]{name,  }\item[{std\+::string}]{text,  }\item[{int}]{id\+Creature }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_c_fight_a6ab8b9fa1fbc6e2a3fae840f738b9143}\label{class_c_fight_a6ab8b9fa1fbc6e2a3fae840f738b9143}} 
+\index{C\+Fight@{C\+Fight}!C\+Fight@{C\+Fight}}
+\index{C\+Fight@{C\+Fight}!C\+Fight@{C\+Fight}}
+\subsubsection{\texorpdfstring{C\+Fight()}{CFight()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily C\+Fight\+::\+C\+Fight (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_fight_ac820b62e70990ddc90ecb959f4497f8f}\label{class_c_fight_ac820b62e70990ddc90ecb959f4497f8f}} 
+\index{C\+Fight@{C\+Fight}!execute@{execute}}
+\index{execute@{execute}!C\+Fight@{C\+Fight}}
+\subsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily void C\+Fight\+::execute (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_c_hero}{C\+Hero}} \&}]{hero,  }\item[{const \mbox{\hyperlink{class_c_display}{C\+Display}} \&}]{display,  }\item[{const std\+::map$<$ int, const \mbox{\hyperlink{class_c_event}{C\+Event}} $\ast$$>$ \&}]{events,  }\item[{const std\+::map$<$ int, const \mbox{\hyperlink{class_c_creature}{C\+Creature}} $\ast$$>$ \&}]{creatures }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_c_event_a46bd2925f7f19c5c0d6adf2b1e6e3f70}{C\+Event}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_fight_ac820b62e70990ddc90ecb959f4497f8f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_fight_a70c350b815744b481134b4d3ac0f61bb}\label{class_c_fight_a70c350b815744b481134b4d3ac0f61bb}} 
+\index{C\+Fight@{C\+Fight}!print@{print}}
+\index{print@{print}!C\+Fight@{C\+Fight}}
+\subsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void C\+Fight\+::print (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_c_display}{C\+Display}} \&}]{display }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_c_event_ad6f75aa0babcd74caff9426cecdd86f0}{C\+Event}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{class_c_fight_a70c350b815744b481134b4d3ac0f61bb_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_c_fight_a986de57fedf8056ccec818146406efd2}\label{class_c_fight_a986de57fedf8056ccec818146406efd2}} 
+\index{C\+Fight@{C\+Fight}!creature\+ID@{creature\+ID}}
+\index{creature\+ID@{creature\+ID}!C\+Fight@{C\+Fight}}
+\subsubsection{\texorpdfstring{creature\+ID}{creatureID}}
+{\footnotesize\ttfamily int C\+Fight\+::creature\+ID\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_c_fight_ae7e8bdccd47c1064a04668ab1d6af255}\label{class_c_fight_ae7e8bdccd47c1064a04668ab1d6af255}} 
+\index{C\+Fight@{C\+Fight}!enemy\+Encounter\+Choice@{enemy\+Encounter\+Choice}}
+\index{enemy\+Encounter\+Choice@{enemy\+Encounter\+Choice}!C\+Fight@{C\+Fight}}
+\subsubsection{\texorpdfstring{enemy\+Encounter\+Choice}{enemyEncounterChoice}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_game_menus_8h_acdb545ed67596d0840e35ed209fecbe9}{multichoice}} C\+Fight\+::enemy\+Encounter\+Choice\hspace{0.3cm}{\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= \{std::make\_pair(\textcolor{stringliteral}{"Fight"}, \mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a9e6417ebffecef071eaeeb2ed0ca654b}{action::fight}}),
+                                        std::make\_pair(\textcolor{stringliteral}{"Retreat"}, 
+      \mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4af067f15883375d237eb36bca4f5900fb}{action::retreat}})\}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\mbox{\hyperlink{_fight_8h}{Fight.\+h}}\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\mbox{\hyperlink{_fight_8cpp}{Fight.\+cpp}}\end{DoxyCompactItemize}

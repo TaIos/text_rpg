@@ -1,0 +1,22 @@
+<map id="E:/Dropbox/BI_FIT_CVUT/2. semestr/PA2/GameBook/Shopping.h" name="E:/Dropbox/BI_FIT_CVUT/2. semestr/PA2/GameBook/Shopping.h">
+<area shape="rect" id="node6" href="$_hero_8h.html" title="Hero.h" alt="" coords="811,333,871,360"/>
+<area shape="rect" id="node21" href="$_world_8h.html" title="World.h" alt="" coords="556,109,623,136"/>
+<area shape="rect" id="node9" href="$_creature_8h.html" title="Creature.h" alt="" coords="456,483,539,509"/>
+<area shape="rect" id="node10" href="$_display_8h.html" title="Display.h" alt="" coords="565,557,641,584"/>
+<area shape="rect" id="node12" href="$_errors_list_8h.html" title="ErrorsList.h" alt="" coords="1070,632,1159,659"/>
+<area shape="rect" id="node14" href="$_inventory_8h.html" title="Inventory.h" alt="" coords="1581,557,1665,584"/>
+<area shape="rect" id="node15" href="$_armour_8h.html" title="Armour.h" alt="" coords="577,408,652,435"/>
+<area shape="rect" id="node16" href="$_item_8h.html" title="Item.h" alt="" coords="579,483,637,509"/>
+<area shape="rect" id="node17" href="$_equipment_8h.html" title="Equipment.h" alt="" coords="717,557,811,584"/>
+<area shape="rect" id="node18" href="$_hero_stats_8h.html" title="HeroStats.h" alt="" coords="348,557,439,584"/>
+<area shape="rect" id="node19" href="$_sword_8h.html" title="Sword.h" alt="" coords="484,408,553,435"/>
+<area shape="rect" id="node20" href="$_stream_decoder_8h.html" title="StreamDecoder.h" alt="" coords="1332,557,1455,584"/>
+<area shape="rect" id="node11" href="$_actions_list_8h.html" title="ActionsList.h" alt="" coords="179,707,277,733"/>
+<area shape="rect" id="node13" href="$_game_menus_8h.html" title="GameMenus.h" alt="" coords="281,632,388,659"/>
+<area shape="rect" id="node23" href="$_i_ohandle_8h.html" title="IOhandle.h" alt="" coords="1223,557,1307,584"/>
+<area shape="rect" id="node25" href="$_event_8h.html" title="Event.h" alt="" coords="293,259,358,285"/>
+<area shape="rect" id="node26" href="$_choice_8h.html" title="Choice.h" alt="" coords="231,184,305,211"/>
+<area shape="rect" id="node27" href="$_dialogue_n_c_p_8h.html" title="DialogueNCP.h" alt="" coords="45,184,155,211"/>
+<area shape="rect" id="node28" href="$_fight_8h.html" title="Fight.h" alt="" coords="463,184,526,211"/>
+<area shape="rect" id="node29" href="$_trap_8h.html" title="Trap.h" alt="" coords="329,184,388,211"/>
+</map>

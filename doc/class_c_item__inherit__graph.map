@@ -1,0 +1,4 @@
+<map id="CItem" name="CItem">
+<area shape="rect" id="node2" href="$class_c_armour.html" title="{CArmour\n|# defense\l|+ CArmour()\l+ CArmour()\l+ useItem()\l+ print()\l+ printForShop()\l}" alt="" coords="5,277,121,413"/>
+<area shape="rect" id="node3" href="$class_c_sword.html" title="{CSword\n|# attack\l|+ CSword()\l+ useItem()\l+ print()\l+ printForShop()\l}" alt="" coords="145,285,261,406"/>
+</map>

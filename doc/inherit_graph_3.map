@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_c_event.html" title="CEvent" alt="" coords="5,81,68,108"/>
+<area shape="rect" id="node2" href="$class_c_choice.html" title="CChoice" alt="" coords="135,5,205,32"/>
+<area shape="rect" id="node3" href="$class_c_dialogue_n_p_c.html" title="CDialogueNPC" alt="" coords="116,56,224,83"/>
+<area shape="rect" id="node4" href="$class_c_fight.html" title="CFight" alt="" coords="140,107,200,133"/>
+<area shape="rect" id="node5" href="$class_c_trap.html" title="CTrap" alt="" coords="142,157,198,184"/>
+</map>

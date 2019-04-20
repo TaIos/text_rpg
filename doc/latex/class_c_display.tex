@@ -1,0 +1,237 @@
+\hypertarget{class_c_display}{}\section{C\+Display Class Reference}
+\label{class_c_display}\index{C\+Display@{C\+Display}}
+
+
+{\ttfamily \#include $<$Display.\+h$>$}
+
+
+
+Collaboration diagram for C\+Display\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=221pt]{class_c_display__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_display_aeab4454cf16b08e1b091c495be595269}{C\+Display}} ()
+\item 
+\mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4}{action}} \mbox{\hyperlink{class_c_display_a7d4efb0285d6cdf757bc34e38718e17d}{multi\+Choice}} (const \mbox{\hyperlink{_game_menus_8h_acdb545ed67596d0840e35ed209fecbe9}{multichoice}} \&choices) const
+\item 
+\mbox{\hyperlink{_errors_list_8h_af10dacfa214e2575bb2e0ee407c242e0}{error}} \mbox{\hyperlink{class_c_display_a1bd3e25973ed15055a68d4db6abfa765}{get\+String}} (std\+::string \&text) const
+\item 
+\mbox{\hyperlink{_errors_list_8h_af10dacfa214e2575bb2e0ee407c242e0}{error}} \mbox{\hyperlink{class_c_display_af552459e3405bb18e1dd879f7fdc9606}{get\+Number}} (int \&number) const
+\item 
+void \mbox{\hyperlink{class_c_display_a3af2fc29db30feeabc68ffea6fb8c13a}{wait}} (std\+::string=\char`\"{}Press E\+N\+T\+ER to continue ...\char`\"{}) const
+\item 
+void \mbox{\hyperlink{class_c_display_a54c5d36f4bc11d4a935ff5c86ea4e653}{print}} (std\+::string str) const
+\item 
+void \mbox{\hyperlink{class_c_display_af350b35b44fc756e0c721ec4ee56c67a}{print\+Delimiter}} (int cnt=1) const
+\item 
+void \mbox{\hyperlink{class_c_display_a53b65673a9b0bfc807a3a1e448962928}{print\+With\+Delimiter}} (std\+::string str) const
+\item 
+void \mbox{\hyperlink{class_c_display_a63f3c4f78cef1d3b13290970da9e3e85}{print\+Error}} (\mbox{\hyperlink{_errors_list_8h_af10dacfa214e2575bb2e0ee407c242e0}{error}} err) const
+\item 
+void \mbox{\hyperlink{class_c_display_aba2a285f19e987f9ba82447f43be2b10}{dump\+To\+New\+Line}} () const
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{class_c_display_ac275f884a9b9ff5e1cb3494128c7418a}{output\+Str}}
+\item 
+std\+::istream \& \mbox{\hyperlink{class_c_display_ac154ae55121a2f931942af9d6519466f}{input\+Str}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_display_aeab4454cf16b08e1b091c495be595269}\label{class_c_display_aeab4454cf16b08e1b091c495be595269}} 
+\index{C\+Display@{C\+Display}!C\+Display@{C\+Display}}
+\index{C\+Display@{C\+Display}!C\+Display@{C\+Display}}
+\subsubsection{\texorpdfstring{C\+Display()}{CDisplay()}}
+{\footnotesize\ttfamily C\+Display\+::\+C\+Display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_display_aba2a285f19e987f9ba82447f43be2b10}\label{class_c_display_aba2a285f19e987f9ba82447f43be2b10}} 
+\index{C\+Display@{C\+Display}!dump\+To\+New\+Line@{dump\+To\+New\+Line}}
+\index{dump\+To\+New\+Line@{dump\+To\+New\+Line}!C\+Display@{C\+Display}}
+\subsubsection{\texorpdfstring{dump\+To\+New\+Line()}{dumpToNewLine()}}
+{\footnotesize\ttfamily void C\+Display\+::dump\+To\+New\+Line (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_display_aba2a285f19e987f9ba82447f43be2b10_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_display_af552459e3405bb18e1dd879f7fdc9606}\label{class_c_display_af552459e3405bb18e1dd879f7fdc9606}} 
+\index{C\+Display@{C\+Display}!get\+Number@{get\+Number}}
+\index{get\+Number@{get\+Number}!C\+Display@{C\+Display}}
+\subsubsection{\texorpdfstring{get\+Number()}{getNumber()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_errors_list_8h_af10dacfa214e2575bb2e0ee407c242e0}{error}} C\+Display\+::get\+Number (\begin{DoxyParamCaption}\item[{int \&}]{number }\end{DoxyParamCaption}) const}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_display_af552459e3405bb18e1dd879f7fdc9606_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_c_display_af552459e3405bb18e1dd879f7fdc9606_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_display_a1bd3e25973ed15055a68d4db6abfa765}\label{class_c_display_a1bd3e25973ed15055a68d4db6abfa765}} 
+\index{C\+Display@{C\+Display}!get\+String@{get\+String}}
+\index{get\+String@{get\+String}!C\+Display@{C\+Display}}
+\subsubsection{\texorpdfstring{get\+String()}{getString()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_errors_list_8h_af10dacfa214e2575bb2e0ee407c242e0}{error}} C\+Display\+::get\+String (\begin{DoxyParamCaption}\item[{std\+::string \&}]{text }\end{DoxyParamCaption}) const}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_display_a1bd3e25973ed15055a68d4db6abfa765_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_display_a1bd3e25973ed15055a68d4db6abfa765_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_display_a7d4efb0285d6cdf757bc34e38718e17d}\label{class_c_display_a7d4efb0285d6cdf757bc34e38718e17d}} 
+\index{C\+Display@{C\+Display}!multi\+Choice@{multi\+Choice}}
+\index{multi\+Choice@{multi\+Choice}!C\+Display@{C\+Display}}
+\subsubsection{\texorpdfstring{multi\+Choice()}{multiChoice()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4}{action}} C\+Display\+::multi\+Choice (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{_game_menus_8h_acdb545ed67596d0840e35ed209fecbe9}{multichoice}} \&}]{choices }\end{DoxyParamCaption}) const}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_display_a7d4efb0285d6cdf757bc34e38718e17d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_display_a7d4efb0285d6cdf757bc34e38718e17d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_display_a54c5d36f4bc11d4a935ff5c86ea4e653}\label{class_c_display_a54c5d36f4bc11d4a935ff5c86ea4e653}} 
+\index{C\+Display@{C\+Display}!print@{print}}
+\index{print@{print}!C\+Display@{C\+Display}}
+\subsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void C\+Display\+::print (\begin{DoxyParamCaption}\item[{std\+::string}]{str }\end{DoxyParamCaption}) const}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_display_a54c5d36f4bc11d4a935ff5c86ea4e653_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_display_af350b35b44fc756e0c721ec4ee56c67a}\label{class_c_display_af350b35b44fc756e0c721ec4ee56c67a}} 
+\index{C\+Display@{C\+Display}!print\+Delimiter@{print\+Delimiter}}
+\index{print\+Delimiter@{print\+Delimiter}!C\+Display@{C\+Display}}
+\subsubsection{\texorpdfstring{print\+Delimiter()}{printDelimiter()}}
+{\footnotesize\ttfamily void C\+Display\+::print\+Delimiter (\begin{DoxyParamCaption}\item[{int}]{cnt = {\ttfamily 1} }\end{DoxyParamCaption}) const}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_display_af350b35b44fc756e0c721ec4ee56c67a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_display_a63f3c4f78cef1d3b13290970da9e3e85}\label{class_c_display_a63f3c4f78cef1d3b13290970da9e3e85}} 
+\index{C\+Display@{C\+Display}!print\+Error@{print\+Error}}
+\index{print\+Error@{print\+Error}!C\+Display@{C\+Display}}
+\subsubsection{\texorpdfstring{print\+Error()}{printError()}}
+{\footnotesize\ttfamily void C\+Display\+::print\+Error (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_errors_list_8h_af10dacfa214e2575bb2e0ee407c242e0}{error}}}]{err }\end{DoxyParamCaption}) const}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_display_a63f3c4f78cef1d3b13290970da9e3e85_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_display_a63f3c4f78cef1d3b13290970da9e3e85_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_display_a53b65673a9b0bfc807a3a1e448962928}\label{class_c_display_a53b65673a9b0bfc807a3a1e448962928}} 
+\index{C\+Display@{C\+Display}!print\+With\+Delimiter@{print\+With\+Delimiter}}
+\index{print\+With\+Delimiter@{print\+With\+Delimiter}!C\+Display@{C\+Display}}
+\subsubsection{\texorpdfstring{print\+With\+Delimiter()}{printWithDelimiter()}}
+{\footnotesize\ttfamily void C\+Display\+::print\+With\+Delimiter (\begin{DoxyParamCaption}\item[{std\+::string}]{str }\end{DoxyParamCaption}) const}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_display_a53b65673a9b0bfc807a3a1e448962928_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_display_a53b65673a9b0bfc807a3a1e448962928_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_display_a3af2fc29db30feeabc68ffea6fb8c13a}\label{class_c_display_a3af2fc29db30feeabc68ffea6fb8c13a}} 
+\index{C\+Display@{C\+Display}!wait@{wait}}
+\index{wait@{wait}!C\+Display@{C\+Display}}
+\subsubsection{\texorpdfstring{wait()}{wait()}}
+{\footnotesize\ttfamily void C\+Display\+::wait (\begin{DoxyParamCaption}\item[{std\+::string}]{text = {\ttfamily \char`\"{}Press~ENTER~to~continue~...\char`\"{}} }\end{DoxyParamCaption}) const}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{class_c_display_a3af2fc29db30feeabc68ffea6fb8c13a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=298pt]{class_c_display_a3af2fc29db30feeabc68ffea6fb8c13a_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_c_display_ac154ae55121a2f931942af9d6519466f}\label{class_c_display_ac154ae55121a2f931942af9d6519466f}} 
+\index{C\+Display@{C\+Display}!input\+Str@{input\+Str}}
+\index{input\+Str@{input\+Str}!C\+Display@{C\+Display}}
+\subsubsection{\texorpdfstring{input\+Str}{inputStr}}
+{\footnotesize\ttfamily std\+::istream\& C\+Display\+::input\+Str\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_c_display_ac275f884a9b9ff5e1cb3494128c7418a}\label{class_c_display_ac275f884a9b9ff5e1cb3494128c7418a}} 
+\index{C\+Display@{C\+Display}!output\+Str@{output\+Str}}
+\index{output\+Str@{output\+Str}!C\+Display@{C\+Display}}
+\subsubsection{\texorpdfstring{output\+Str}{outputStr}}
+{\footnotesize\ttfamily std\+::ostream\& C\+Display\+::output\+Str\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\mbox{\hyperlink{_display_8h}{Display.\+h}}\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\mbox{\hyperlink{_display_8cpp}{Display.\+cpp}}\end{DoxyCompactItemize}

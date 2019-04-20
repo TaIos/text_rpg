@@ -1,0 +1,5 @@
+<map id="CWorld::loadCreatures" name="CWorld::loadCreatures">
+<area shape="rect" id="node2" href="$class_c_stream_decoder.html#aeaef1aa3239cf7b5d00397b6e46f67d1" title="CStreamDecoder::getString\lAsInt" alt="" coords="207,5,388,47"/>
+<area shape="rect" id="node4" href="$class_c_stream_decoder.html#a4ddd62e9d414ff656f5708e3c0c39b36" title="CStreamDecoder::getText" alt="" coords="211,71,383,98"/>
+<area shape="rect" id="node3" href="$class_c_stream_decoder.html#a736a4660fb1fc91ffc7345050f815994" title="CStreamDecoder::getString" alt="" coords="436,13,617,39"/>
+</map>

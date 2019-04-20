@@ -1,0 +1,147 @@
+\hypertarget{class_c_inventory}{}\section{C\+Inventory Class Reference}
+\label{class_c_inventory}\index{C\+Inventory@{C\+Inventory}}
+
+
+{\ttfamily \#include $<$Inventory.\+h$>$}
+
+
+
+Collaboration diagram for C\+Inventory\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=165pt]{class_c_inventory__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_c_inventory_aaf1332bfb30866845bbcae69e411e4bc}{export\+Data}} (std\+::string \&data) const
+\item 
+void \mbox{\hyperlink{class_c_inventory_aee94ee18f40ea685f640a15f8f6f75b9}{add\+Item}} (int item\+ID)
+\item 
+void \mbox{\hyperlink{class_c_inventory_a0df34d3e77a17faa6585c11611258135}{remove\+Item}} (int item\+ID)
+\item 
+bool \mbox{\hyperlink{class_c_inventory_abd92c94b31dc928c1047423e98309bd7}{is\+In\+Inventory}} (int item\+ID) const
+\item 
+bool \mbox{\hyperlink{class_c_inventory_a3fe6ee0c2de70f3e2d9278e43f125fe9}{is\+Empty}} () const
+\item 
+void \mbox{\hyperlink{class_c_inventory_a2ae39f69247c25fa2ee46c4111bcce56}{update}} (const std\+::set$<$ int $>$ \&items\+ID)
+\item 
+void \mbox{\hyperlink{class_c_inventory_a0e551d2fbd87a61bb2b56ce58cacbe1f}{update}} (const std\+::vector$<$ int $>$ \&items\+ID)
+\item 
+const std\+::set$<$ int $>$ \& \mbox{\hyperlink{class_c_inventory_a473699b2949d4c6c19853f5047fa7737}{get\+Items\+ID}} () const
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::set$<$ int $>$ \mbox{\hyperlink{class_c_inventory_a6e8d618c0236a8221a876466b53e4ddb}{items}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_inventory_aee94ee18f40ea685f640a15f8f6f75b9}\label{class_c_inventory_aee94ee18f40ea685f640a15f8f6f75b9}} 
+\index{C\+Inventory@{C\+Inventory}!add\+Item@{add\+Item}}
+\index{add\+Item@{add\+Item}!C\+Inventory@{C\+Inventory}}
+\subsubsection{\texorpdfstring{add\+Item()}{addItem()}}
+{\footnotesize\ttfamily void C\+Inventory\+::add\+Item (\begin{DoxyParamCaption}\item[{int}]{item\+ID }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_inventory_aee94ee18f40ea685f640a15f8f6f75b9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_inventory_aaf1332bfb30866845bbcae69e411e4bc}\label{class_c_inventory_aaf1332bfb30866845bbcae69e411e4bc}} 
+\index{C\+Inventory@{C\+Inventory}!export\+Data@{export\+Data}}
+\index{export\+Data@{export\+Data}!C\+Inventory@{C\+Inventory}}
+\subsubsection{\texorpdfstring{export\+Data()}{exportData()}}
+{\footnotesize\ttfamily void C\+Inventory\+::export\+Data (\begin{DoxyParamCaption}\item[{std\+::string \&}]{data }\end{DoxyParamCaption}) const}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_inventory_aaf1332bfb30866845bbcae69e411e4bc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_inventory_a473699b2949d4c6c19853f5047fa7737}\label{class_c_inventory_a473699b2949d4c6c19853f5047fa7737}} 
+\index{C\+Inventory@{C\+Inventory}!get\+Items\+ID@{get\+Items\+ID}}
+\index{get\+Items\+ID@{get\+Items\+ID}!C\+Inventory@{C\+Inventory}}
+\subsubsection{\texorpdfstring{get\+Items\+I\+D()}{getItemsID()}}
+{\footnotesize\ttfamily const std\+::set$<$int$>$\& C\+Inventory\+::get\+Items\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_inventory_a473699b2949d4c6c19853f5047fa7737_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_inventory_a3fe6ee0c2de70f3e2d9278e43f125fe9}\label{class_c_inventory_a3fe6ee0c2de70f3e2d9278e43f125fe9}} 
+\index{C\+Inventory@{C\+Inventory}!is\+Empty@{is\+Empty}}
+\index{is\+Empty@{is\+Empty}!C\+Inventory@{C\+Inventory}}
+\subsubsection{\texorpdfstring{is\+Empty()}{isEmpty()}}
+{\footnotesize\ttfamily bool C\+Inventory\+::is\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_inventory_a3fe6ee0c2de70f3e2d9278e43f125fe9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_inventory_abd92c94b31dc928c1047423e98309bd7}\label{class_c_inventory_abd92c94b31dc928c1047423e98309bd7}} 
+\index{C\+Inventory@{C\+Inventory}!is\+In\+Inventory@{is\+In\+Inventory}}
+\index{is\+In\+Inventory@{is\+In\+Inventory}!C\+Inventory@{C\+Inventory}}
+\subsubsection{\texorpdfstring{is\+In\+Inventory()}{isInInventory()}}
+{\footnotesize\ttfamily bool C\+Inventory\+::is\+In\+Inventory (\begin{DoxyParamCaption}\item[{int}]{item\+ID }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_inventory_abd92c94b31dc928c1047423e98309bd7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_inventory_a0df34d3e77a17faa6585c11611258135}\label{class_c_inventory_a0df34d3e77a17faa6585c11611258135}} 
+\index{C\+Inventory@{C\+Inventory}!remove\+Item@{remove\+Item}}
+\index{remove\+Item@{remove\+Item}!C\+Inventory@{C\+Inventory}}
+\subsubsection{\texorpdfstring{remove\+Item()}{removeItem()}}
+{\footnotesize\ttfamily void C\+Inventory\+::remove\+Item (\begin{DoxyParamCaption}\item[{int}]{item\+ID }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_c_inventory_a2ae39f69247c25fa2ee46c4111bcce56}\label{class_c_inventory_a2ae39f69247c25fa2ee46c4111bcce56}} 
+\index{C\+Inventory@{C\+Inventory}!update@{update}}
+\index{update@{update}!C\+Inventory@{C\+Inventory}}
+\subsubsection{\texorpdfstring{update()}{update()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void C\+Inventory\+::update (\begin{DoxyParamCaption}\item[{const std\+::set$<$ int $>$ \&}]{items\+ID }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_inventory_a2ae39f69247c25fa2ee46c4111bcce56_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_inventory_a0e551d2fbd87a61bb2b56ce58cacbe1f}\label{class_c_inventory_a0e551d2fbd87a61bb2b56ce58cacbe1f}} 
+\index{C\+Inventory@{C\+Inventory}!update@{update}}
+\index{update@{update}!C\+Inventory@{C\+Inventory}}
+\subsubsection{\texorpdfstring{update()}{update()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void C\+Inventory\+::update (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ int $>$ \&}]{items\+ID }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_c_inventory_a6e8d618c0236a8221a876466b53e4ddb}\label{class_c_inventory_a6e8d618c0236a8221a876466b53e4ddb}} 
+\index{C\+Inventory@{C\+Inventory}!items@{items}}
+\index{items@{items}!C\+Inventory@{C\+Inventory}}
+\subsubsection{\texorpdfstring{items}{items}}
+{\footnotesize\ttfamily std\+::set$<$int$>$ C\+Inventory\+::items\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\mbox{\hyperlink{_inventory_8h}{Inventory.\+h}}\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\mbox{\hyperlink{_inventory_8cpp}{Inventory.\+cpp}}\end{DoxyCompactItemize}

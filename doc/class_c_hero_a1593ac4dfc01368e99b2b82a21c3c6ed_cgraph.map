@@ -1,0 +1,6 @@
+<map id="CHero::exportData" name="CHero::exportData">
+<area shape="rect" id="node2" href="$struct_hero_stats.html#a9580a49eab11c0babd042b6e7e551e4e" title="HeroStats::exportData" alt="" coords="188,5,339,32"/>
+<area shape="rect" id="node3" href="$class_c_equipment.html#a6b27732ece0ab3c74bff006093dc5a7d" title="CEquipment::getAttack" alt="" coords="185,56,342,83"/>
+<area shape="rect" id="node4" href="$class_c_equipment.html#a27e962aead56bb39886acc86c17b7478" title="CEquipment::getArmour" alt="" coords="183,107,344,133"/>
+<area shape="rect" id="node5" href="$class_c_inventory.html#aaf1332bfb30866845bbcae69e411e4bc" title="CInventory::exportData" alt="" coords="187,157,340,184"/>
+</map>

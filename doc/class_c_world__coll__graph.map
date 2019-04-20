@@ -1,0 +1,5 @@
+<map id="CWorld" name="CWorld">
+<area shape="rect" id="node3" href="$class_i_ohandle.html" title="{IOhandle\n||+ loadEvent()\l+ loadEventOrder()\l+ loadCreature()\l+ loadShopItem()\l# dumpLine()\l}" alt="" coords="226,182,357,318"/>
+<area shape="rect" id="node7" href="$class_c_display.html" title="{CDisplay\n||+ CDisplay()\l+ multiChoice()\l+ getString()\l+ getNumber()\l+ wait()\l+ print()\l+ printDelimiter()\l+ printWithDelimiter()\l+ printError()\l+ dumpToNewLine()\l}" alt="" coords="899,145,1044,355"/>
+<area shape="rect" id="node10" href="$class_c_stream_decoder.html" title="{CStreamDecoder\n||+ getStringAsInt()\l+ getString()\l+ getText()\l+ getNumbers()\l+ getNumbers()\l+ getNumbersAsString()\l+ decodePlayerData()\l}" alt="" coords="1069,167,1231,333"/>
+</map>

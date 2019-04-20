@@ -1,0 +1,8 @@
+<map id="CGame::exportPlayerData" name="CGame::exportPlayerData">
+<area shape="rect" id="node2" href="$class_c_hero.html#a1593ac4dfc01368e99b2b82a21c3c6ed" title="CHero::exportData" alt="" coords="240,81,369,108"/>
+<area shape="rect" id="node7" href="$class_c_storyline.html#aa8cb69bd93260855dc0221d901b1bd07" title="CStoryline::exportData" alt="" coords="228,132,381,159"/>
+<area shape="rect" id="node3" href="$struct_hero_stats.html#a9580a49eab11c0babd042b6e7e551e4e" title="HeroStats::exportData" alt="" coords="435,5,585,32"/>
+<area shape="rect" id="node4" href="$class_c_equipment.html#a6b27732ece0ab3c74bff006093dc5a7d" title="CEquipment::getAttack" alt="" coords="431,56,589,83"/>
+<area shape="rect" id="node5" href="$class_c_equipment.html#a27e962aead56bb39886acc86c17b7478" title="CEquipment::getArmour" alt="" coords="429,107,591,133"/>
+<area shape="rect" id="node6" href="$class_c_inventory.html#aaf1332bfb30866845bbcae69e411e4bc" title="CInventory::exportData" alt="" coords="433,157,587,184"/>
+</map>

@@ -1,0 +1,89 @@
+\hypertarget{_actions_list_8h}{}\section{E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\+Actions\+List.h File Reference}
+\label{_actions_list_8h}\index{E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\+Actions\+List.\+h@{E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\+Actions\+List.\+h}}
+This graph shows which files directly or indirectly include this file\+:
+% FIG 0
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4}{action}} \{ \newline
+\mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4aa3b34c0871dc2fd51eec5559b68f709d}{action\+::play}}, 
+\mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4aec4d1eb36b22d19728e9d1d23ca84d1c}{action\+::load}}, 
+\mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a43781db5c40ecc39fd718685594f0956}{action\+::save}}, 
+\mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4af24f62eeb789199b9b2e467df3b1876b}{action\+::exit}}, 
+\newline
+\mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a9e6417ebffecef071eaeeb2ed0ca654b}{action\+::fight}}, 
+\mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4af067f15883375d237eb36bca4f5900fb}{action\+::retreat}}, 
+\mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4ad24e5b56e0f52dcff5c1930a253505e5}{action\+::go\+\_\+next}}, 
+\mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a85e437dc33ecd2d8522380460e7c269d}{action\+::print\+\_\+stats}}, 
+\newline
+\mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4ab2fe440cb7a0b127f1a90ffea296313b}{action\+::shopping}}, 
+\mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a63f425896e36301d3baa9c83d28d5bb3}{action\+::go\+\_\+to\+\_\+inventory}}, 
+\mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4abe34c536df47a974cce3a792136161d7}{action\+::go\+\_\+to\+\_\+main\+\_\+menu}}, 
+\mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a1657f5e177f996c23e33e1fdbef1a8ce}{action\+::choose\+\_\+option\+\_\+A}}, 
+\newline
+\mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a09728f3dc698db847abe108d25825ff4}{action\+::choose\+\_\+option\+\_\+B}}
+ \}
+\end{DoxyCompactItemize}
+
+
+\subsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4}\label{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4}} 
+\index{Actions\+List.\+h@{Actions\+List.\+h}!action@{action}}
+\index{action@{action}!Actions\+List.\+h@{Actions\+List.\+h}}
+\subsubsection{\texorpdfstring{action}{action}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4}{action}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{play@{play}!Actions\+List.\+h@{Actions\+List.\+h}}\index{Actions\+List.\+h@{Actions\+List.\+h}!play@{play}}}\mbox{\Hypertarget{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4aa3b34c0871dc2fd51eec5559b68f709d}\label{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4aa3b34c0871dc2fd51eec5559b68f709d}} 
+play&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{load@{load}!Actions\+List.\+h@{Actions\+List.\+h}}\index{Actions\+List.\+h@{Actions\+List.\+h}!load@{load}}}\mbox{\Hypertarget{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4aec4d1eb36b22d19728e9d1d23ca84d1c}\label{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4aec4d1eb36b22d19728e9d1d23ca84d1c}} 
+load&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{save@{save}!Actions\+List.\+h@{Actions\+List.\+h}}\index{Actions\+List.\+h@{Actions\+List.\+h}!save@{save}}}\mbox{\Hypertarget{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a43781db5c40ecc39fd718685594f0956}\label{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a43781db5c40ecc39fd718685594f0956}} 
+save&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{exit@{exit}!Actions\+List.\+h@{Actions\+List.\+h}}\index{Actions\+List.\+h@{Actions\+List.\+h}!exit@{exit}}}\mbox{\Hypertarget{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4af24f62eeb789199b9b2e467df3b1876b}\label{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4af24f62eeb789199b9b2e467df3b1876b}} 
+exit&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{fight@{fight}!Actions\+List.\+h@{Actions\+List.\+h}}\index{Actions\+List.\+h@{Actions\+List.\+h}!fight@{fight}}}\mbox{\Hypertarget{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a9e6417ebffecef071eaeeb2ed0ca654b}\label{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a9e6417ebffecef071eaeeb2ed0ca654b}} 
+fight&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{retreat@{retreat}!Actions\+List.\+h@{Actions\+List.\+h}}\index{Actions\+List.\+h@{Actions\+List.\+h}!retreat@{retreat}}}\mbox{\Hypertarget{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4af067f15883375d237eb36bca4f5900fb}\label{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4af067f15883375d237eb36bca4f5900fb}} 
+retreat&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{go\+\_\+next@{go\+\_\+next}!Actions\+List.\+h@{Actions\+List.\+h}}\index{Actions\+List.\+h@{Actions\+List.\+h}!go\+\_\+next@{go\+\_\+next}}}\mbox{\Hypertarget{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4ad24e5b56e0f52dcff5c1930a253505e5}\label{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4ad24e5b56e0f52dcff5c1930a253505e5}} 
+go\+\_\+next&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{print\+\_\+stats@{print\+\_\+stats}!Actions\+List.\+h@{Actions\+List.\+h}}\index{Actions\+List.\+h@{Actions\+List.\+h}!print\+\_\+stats@{print\+\_\+stats}}}\mbox{\Hypertarget{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a85e437dc33ecd2d8522380460e7c269d}\label{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a85e437dc33ecd2d8522380460e7c269d}} 
+print\+\_\+stats&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{shopping@{shopping}!Actions\+List.\+h@{Actions\+List.\+h}}\index{Actions\+List.\+h@{Actions\+List.\+h}!shopping@{shopping}}}\mbox{\Hypertarget{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4ab2fe440cb7a0b127f1a90ffea296313b}\label{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4ab2fe440cb7a0b127f1a90ffea296313b}} 
+shopping&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{go\+\_\+to\+\_\+inventory@{go\+\_\+to\+\_\+inventory}!Actions\+List.\+h@{Actions\+List.\+h}}\index{Actions\+List.\+h@{Actions\+List.\+h}!go\+\_\+to\+\_\+inventory@{go\+\_\+to\+\_\+inventory}}}\mbox{\Hypertarget{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a63f425896e36301d3baa9c83d28d5bb3}\label{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a63f425896e36301d3baa9c83d28d5bb3}} 
+go\+\_\+to\+\_\+inventory&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{go\+\_\+to\+\_\+main\+\_\+menu@{go\+\_\+to\+\_\+main\+\_\+menu}!Actions\+List.\+h@{Actions\+List.\+h}}\index{Actions\+List.\+h@{Actions\+List.\+h}!go\+\_\+to\+\_\+main\+\_\+menu@{go\+\_\+to\+\_\+main\+\_\+menu}}}\mbox{\Hypertarget{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4abe34c536df47a974cce3a792136161d7}\label{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4abe34c536df47a974cce3a792136161d7}} 
+go\+\_\+to\+\_\+main\+\_\+menu&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{choose\+\_\+option\+\_\+A@{choose\+\_\+option\+\_\+A}!Actions\+List.\+h@{Actions\+List.\+h}}\index{Actions\+List.\+h@{Actions\+List.\+h}!choose\+\_\+option\+\_\+A@{choose\+\_\+option\+\_\+A}}}\mbox{\Hypertarget{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a1657f5e177f996c23e33e1fdbef1a8ce}\label{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a1657f5e177f996c23e33e1fdbef1a8ce}} 
+choose\+\_\+option\+\_\+A&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{choose\+\_\+option\+\_\+B@{choose\+\_\+option\+\_\+B}!Actions\+List.\+h@{Actions\+List.\+h}}\index{Actions\+List.\+h@{Actions\+List.\+h}!choose\+\_\+option\+\_\+B@{choose\+\_\+option\+\_\+B}}}\mbox{\Hypertarget{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a09728f3dc698db847abe108d25825ff4}\label{_actions_list_8h_a2f4ab7bf743142dae2e459aa18f9f1d4a09728f3dc698db847abe108d25825ff4}} 
+choose\+\_\+option\+\_\+B&\\
+\hline
+
+\end{DoxyEnumFields}

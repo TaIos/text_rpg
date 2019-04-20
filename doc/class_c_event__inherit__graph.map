@@ -1,0 +1,6 @@
+<map id="CEvent" name="CEvent">
+<area shape="rect" id="node2" href="$class_c_choice.html" title="{CChoice\n|# optionA\l# optionB\l# options\l|+ CChoice()\l+ CChoice()\l+ print()\l+ execute()\l}" alt="" coords="5,204,96,355"/>
+<area shape="rect" id="node3" href="$class_c_dialogue_n_p_c.html" title="{CDialogueNPC\n||+ CDialogueNPC()\l+ CDialogueNPC()\l+ print()\l+ execute()\l}" alt="" coords="120,219,248,340"/>
+<area shape="rect" id="node4" href="$class_c_fight.html" title="{CFight\n|# creatureID\l# enemyEncounterChoice\l|+ CFight()\l+ CFight()\l+ print()\l+ execute()\l}" alt="" coords="272,211,443,347"/>
+<area shape="rect" id="node5" href="$class_c_trap.html" title="{CTrap\n|# damage\l|+ CTrap()\l+ CTrap()\l+ print()\l+ execute()\l}" alt="" coords="467,219,555,340"/>
+</map>

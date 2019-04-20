@@ -1,0 +1,4 @@
+<map id="CInventory::getItemsID" name="CInventory::getItemsID">
+<area shape="rect" id="node2" href="$class_c_inventory_browser.html#a022cb6fc703bd156921816554c7a18b8" title="CInventoryBrowser::\lprintInventory" alt="" coords="205,5,343,47"/>
+<area shape="rect" id="node3" href="$class_c_inventory_browser.html#a91c51766048ba5629b125b9a444d31bb" title="CInventoryBrowser::\loperator()" alt="" coords="391,5,528,47"/>
+</map>

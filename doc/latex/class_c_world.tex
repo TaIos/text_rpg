@@ -1,0 +1,341 @@
+\hypertarget{class_c_world}{}\section{C\+World Class Reference}
+\label{class_c_world}\index{C\+World@{C\+World}}
+
+
+{\ttfamily \#include $<$World.\+h$>$}
+
+
+
+Collaboration diagram for C\+World\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_world__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_world_ac7905380d07d6f907b7f18db4e6442df}{$\sim$\+C\+World}} ()
+\item 
+\mbox{\hyperlink{_errors_list_8h_af10dacfa214e2575bb2e0ee407c242e0}{error}} \mbox{\hyperlink{class_c_world_a944f12acb1ff76beed2648647ff19d0f}{load\+World}} (std\+::string world\+File)
+\item 
+const \mbox{\hyperlink{class_c_item}{C\+Item}} \& \mbox{\hyperlink{class_c_world_aae01822f61bfe35284a1ca9c02bdb1a5}{get\+Item}} (int id) const
+\item 
+std\+::string \mbox{\hyperlink{class_c_world_ac1e953c25242ba775f667aec3e6242bd}{get\+Item\+Name}} (int id) const
+\item 
+std\+::set$<$ int $>$ \mbox{\hyperlink{class_c_world_a1c10d5ec2514347fd3fe28f85b23db13}{get\+All\+Item\+ID}} () const
+\item 
+const \mbox{\hyperlink{class_c_event}{C\+Event}} \& \mbox{\hyperlink{class_c_world_a88b90cecbca7d5bcb6575b6a9d94e026}{get\+Event}} (int id) const
+\item 
+const std\+::map$<$ int, const \mbox{\hyperlink{class_c_event}{C\+Event}} $\ast$ $>$ \& \mbox{\hyperlink{class_c_world_a325d979d0d2b15db1e3badec7201c960}{get\+All\+Events}} () const
+\item 
+const \mbox{\hyperlink{class_c_creature}{C\+Creature}} \& \mbox{\hyperlink{class_c_world_a3c5750b369a9384ace4570c27da37386}{get\+Creature}} (int id) const
+\item 
+const std\+::map$<$ int, const \mbox{\hyperlink{class_c_creature}{C\+Creature}} $\ast$ $>$ \& \mbox{\hyperlink{class_c_world_aaf3f4f470883d06d0b37498ba3816430}{get\+All\+Creatures}} () const
+\item 
+const std\+::vector$<$ int $>$ \& \mbox{\hyperlink{class_c_world_a72b79b6801a9e7ae670cc3790acf31d2}{get\+Storyline}} () const
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_errors_list_8h_af10dacfa214e2575bb2e0ee407c242e0}{error}} \mbox{\hyperlink{class_c_world_afa6876cb4b0d0aa9aec88fec6c596634}{load\+Events}} (const std\+::string \&data, std\+::vector$<$ int $>$ \&validate\+Event, std\+::vector$<$ int $>$ \&validate\+Creature)
+\item 
+\mbox{\hyperlink{_errors_list_8h_af10dacfa214e2575bb2e0ee407c242e0}{error}} \mbox{\hyperlink{class_c_world_abb7ab3f5626b424ebabbd4aec3b60b5a}{load\+Items}} (const std\+::string \&data)
+\item 
+\mbox{\hyperlink{_errors_list_8h_af10dacfa214e2575bb2e0ee407c242e0}{error}} \mbox{\hyperlink{class_c_world_a313cf7258bfab897ada813aa0f8837ac}{load\+Creatures}} (const std\+::string \&data)
+\item 
+\mbox{\hyperlink{_errors_list_8h_af10dacfa214e2575bb2e0ee407c242e0}{error}} \mbox{\hyperlink{class_c_world_a6a4774ff3ee94df11d82260a27065885}{load\+Storyline}} (const std\+::string \&data)
+\item 
+\mbox{\hyperlink{_errors_list_8h_af10dacfa214e2575bb2e0ee407c242e0}{error}} \mbox{\hyperlink{class_c_world_a5220755d94cacc872e0f5ae0e7e55eb6}{validate\+I\+Ds}} (const std\+::vector$<$ int $>$ \&validate\+Event, const std\+::vector$<$ int $>$ \&validate\+Creature) const
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_i_ohandle}{I\+Ohandle}} \mbox{\hyperlink{class_c_world_aececaddab106e7d36d438f17b9ec1ba9}{i\+Ohandle}}
+\item 
+\mbox{\hyperlink{class_c_stream_decoder}{C\+Stream\+Decoder}} \mbox{\hyperlink{class_c_world_affc2da4807829a42a991fa7f8cba7c27}{decoder}}
+\item 
+\mbox{\hyperlink{class_c_display}{C\+Display}} \mbox{\hyperlink{class_c_world_a79fe0ec8494e4e1d42fc82e36904d517}{display}}
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{class_c_world_a57cb7b4ee9c9f8070eba90cfbd0717ed}{storyline}}
+\item 
+std\+::map$<$ int, const \mbox{\hyperlink{class_c_creature}{C\+Creature}} $\ast$ $>$ \mbox{\hyperlink{class_c_world_a58749fe58efd9258a7979566de208358}{creatures}}
+\item 
+std\+::map$<$ int, const \mbox{\hyperlink{class_c_item}{C\+Item}} $\ast$ $>$ \mbox{\hyperlink{class_c_world_aef07829b9e53bf45fcf88e368ce1c471}{items}}
+\item 
+std\+::map$<$ int, const \mbox{\hyperlink{class_c_event}{C\+Event}} $\ast$ $>$ \mbox{\hyperlink{class_c_world_a21950e7420b123b79421457060ebaf60}{events}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_world_ac7905380d07d6f907b7f18db4e6442df}\label{class_c_world_ac7905380d07d6f907b7f18db4e6442df}} 
+\index{C\+World@{C\+World}!````~C\+World@{$\sim$\+C\+World}}
+\index{````~C\+World@{$\sim$\+C\+World}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{$\sim$\+C\+World()}{~CWorld()}}
+{\footnotesize\ttfamily C\+World\+::$\sim$\+C\+World (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_world_aaf3f4f470883d06d0b37498ba3816430}\label{class_c_world_aaf3f4f470883d06d0b37498ba3816430}} 
+\index{C\+World@{C\+World}!get\+All\+Creatures@{get\+All\+Creatures}}
+\index{get\+All\+Creatures@{get\+All\+Creatures}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{get\+All\+Creatures()}{getAllCreatures()}}
+{\footnotesize\ttfamily const std\+::map$<$int, const \mbox{\hyperlink{class_c_creature}{C\+Creature}} $\ast$$>$\& C\+World\+::get\+All\+Creatures (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{class_c_world_aaf3f4f470883d06d0b37498ba3816430_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_world_a325d979d0d2b15db1e3badec7201c960}\label{class_c_world_a325d979d0d2b15db1e3badec7201c960}} 
+\index{C\+World@{C\+World}!get\+All\+Events@{get\+All\+Events}}
+\index{get\+All\+Events@{get\+All\+Events}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{get\+All\+Events()}{getAllEvents()}}
+{\footnotesize\ttfamily const std\+::map$<$int, const \mbox{\hyperlink{class_c_event}{C\+Event}} $\ast$$>$\& C\+World\+::get\+All\+Events (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{class_c_world_a325d979d0d2b15db1e3badec7201c960_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_world_a1c10d5ec2514347fd3fe28f85b23db13}\label{class_c_world_a1c10d5ec2514347fd3fe28f85b23db13}} 
+\index{C\+World@{C\+World}!get\+All\+Item\+ID@{get\+All\+Item\+ID}}
+\index{get\+All\+Item\+ID@{get\+All\+Item\+ID}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{get\+All\+Item\+I\+D()}{getAllItemID()}}
+{\footnotesize\ttfamily std\+::set$<$ int $>$ C\+World\+::get\+All\+Item\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_world_a1c10d5ec2514347fd3fe28f85b23db13_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_world_a3c5750b369a9384ace4570c27da37386}\label{class_c_world_a3c5750b369a9384ace4570c27da37386}} 
+\index{C\+World@{C\+World}!get\+Creature@{get\+Creature}}
+\index{get\+Creature@{get\+Creature}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{get\+Creature()}{getCreature()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_c_creature}{C\+Creature}}\& C\+World\+::get\+Creature (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_c_world_a88b90cecbca7d5bcb6575b6a9d94e026}\label{class_c_world_a88b90cecbca7d5bcb6575b6a9d94e026}} 
+\index{C\+World@{C\+World}!get\+Event@{get\+Event}}
+\index{get\+Event@{get\+Event}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{get\+Event()}{getEvent()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_c_event}{C\+Event}}\& C\+World\+::get\+Event (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{class_c_world_a88b90cecbca7d5bcb6575b6a9d94e026_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_world_aae01822f61bfe35284a1ca9c02bdb1a5}\label{class_c_world_aae01822f61bfe35284a1ca9c02bdb1a5}} 
+\index{C\+World@{C\+World}!get\+Item@{get\+Item}}
+\index{get\+Item@{get\+Item}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{get\+Item()}{getItem()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_c_item}{C\+Item}}\& C\+World\+::get\+Item (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_world_aae01822f61bfe35284a1ca9c02bdb1a5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_world_ac1e953c25242ba775f667aec3e6242bd}\label{class_c_world_ac1e953c25242ba775f667aec3e6242bd}} 
+\index{C\+World@{C\+World}!get\+Item\+Name@{get\+Item\+Name}}
+\index{get\+Item\+Name@{get\+Item\+Name}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{get\+Item\+Name()}{getItemName()}}
+{\footnotesize\ttfamily std\+::string C\+World\+::get\+Item\+Name (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_world_ac1e953c25242ba775f667aec3e6242bd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_world_a72b79b6801a9e7ae670cc3790acf31d2}\label{class_c_world_a72b79b6801a9e7ae670cc3790acf31d2}} 
+\index{C\+World@{C\+World}!get\+Storyline@{get\+Storyline}}
+\index{get\+Storyline@{get\+Storyline}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{get\+Storyline()}{getStoryline()}}
+{\footnotesize\ttfamily const std\+::vector$<$int$>$\& C\+World\+::get\+Storyline (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_world_a72b79b6801a9e7ae670cc3790acf31d2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_world_a313cf7258bfab897ada813aa0f8837ac}\label{class_c_world_a313cf7258bfab897ada813aa0f8837ac}} 
+\index{C\+World@{C\+World}!load\+Creatures@{load\+Creatures}}
+\index{load\+Creatures@{load\+Creatures}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{load\+Creatures()}{loadCreatures()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_errors_list_8h_af10dacfa214e2575bb2e0ee407c242e0}{error}} C\+World\+::load\+Creatures (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_world_a313cf7258bfab897ada813aa0f8837ac_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_world_a313cf7258bfab897ada813aa0f8837ac_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_world_afa6876cb4b0d0aa9aec88fec6c596634}\label{class_c_world_afa6876cb4b0d0aa9aec88fec6c596634}} 
+\index{C\+World@{C\+World}!load\+Events@{load\+Events}}
+\index{load\+Events@{load\+Events}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{load\+Events()}{loadEvents()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_errors_list_8h_af10dacfa214e2575bb2e0ee407c242e0}{error}} C\+World\+::load\+Events (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{data,  }\item[{std\+::vector$<$ int $>$ \&}]{validate\+Event,  }\item[{std\+::vector$<$ int $>$ \&}]{validate\+Creature }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_world_afa6876cb4b0d0aa9aec88fec6c596634_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_world_afa6876cb4b0d0aa9aec88fec6c596634_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_world_abb7ab3f5626b424ebabbd4aec3b60b5a}\label{class_c_world_abb7ab3f5626b424ebabbd4aec3b60b5a}} 
+\index{C\+World@{C\+World}!load\+Items@{load\+Items}}
+\index{load\+Items@{load\+Items}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{load\+Items()}{loadItems()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_errors_list_8h_af10dacfa214e2575bb2e0ee407c242e0}{error}} C\+World\+::load\+Items (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_world_abb7ab3f5626b424ebabbd4aec3b60b5a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_world_abb7ab3f5626b424ebabbd4aec3b60b5a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_world_a6a4774ff3ee94df11d82260a27065885}\label{class_c_world_a6a4774ff3ee94df11d82260a27065885}} 
+\index{C\+World@{C\+World}!load\+Storyline@{load\+Storyline}}
+\index{load\+Storyline@{load\+Storyline}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{load\+Storyline()}{loadStoryline()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_errors_list_8h_af10dacfa214e2575bb2e0ee407c242e0}{error}} C\+World\+::load\+Storyline (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_world_a6a4774ff3ee94df11d82260a27065885_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_world_a6a4774ff3ee94df11d82260a27065885_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_world_a944f12acb1ff76beed2648647ff19d0f}\label{class_c_world_a944f12acb1ff76beed2648647ff19d0f}} 
+\index{C\+World@{C\+World}!load\+World@{load\+World}}
+\index{load\+World@{load\+World}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{load\+World()}{loadWorld()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_errors_list_8h_af10dacfa214e2575bb2e0ee407c242e0}{error}} C\+World\+::load\+World (\begin{DoxyParamCaption}\item[{std\+::string}]{world\+File }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_world_a944f12acb1ff76beed2648647ff19d0f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=303pt]{class_c_world_a944f12acb1ff76beed2648647ff19d0f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_c_world_a5220755d94cacc872e0f5ae0e7e55eb6}\label{class_c_world_a5220755d94cacc872e0f5ae0e7e55eb6}} 
+\index{C\+World@{C\+World}!validate\+I\+Ds@{validate\+I\+Ds}}
+\index{validate\+I\+Ds@{validate\+I\+Ds}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{validate\+I\+Ds()}{validateIDs()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_errors_list_8h_af10dacfa214e2575bb2e0ee407c242e0}{error}} C\+World\+::validate\+I\+Ds (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ int $>$ \&}]{validate\+Event,  }\item[{const std\+::vector$<$ int $>$ \&}]{validate\+Creature }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_world_a5220755d94cacc872e0f5ae0e7e55eb6_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_c_world_a58749fe58efd9258a7979566de208358}\label{class_c_world_a58749fe58efd9258a7979566de208358}} 
+\index{C\+World@{C\+World}!creatures@{creatures}}
+\index{creatures@{creatures}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{creatures}{creatures}}
+{\footnotesize\ttfamily std\+::map$<$int, const \mbox{\hyperlink{class_c_creature}{C\+Creature}} $\ast$$>$ C\+World\+::creatures\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_c_world_affc2da4807829a42a991fa7f8cba7c27}\label{class_c_world_affc2da4807829a42a991fa7f8cba7c27}} 
+\index{C\+World@{C\+World}!decoder@{decoder}}
+\index{decoder@{decoder}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{decoder}{decoder}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_c_stream_decoder}{C\+Stream\+Decoder}} C\+World\+::decoder\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_c_world_a79fe0ec8494e4e1d42fc82e36904d517}\label{class_c_world_a79fe0ec8494e4e1d42fc82e36904d517}} 
+\index{C\+World@{C\+World}!display@{display}}
+\index{display@{display}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{display}{display}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_c_display}{C\+Display}} C\+World\+::display\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_c_world_a21950e7420b123b79421457060ebaf60}\label{class_c_world_a21950e7420b123b79421457060ebaf60}} 
+\index{C\+World@{C\+World}!events@{events}}
+\index{events@{events}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{events}{events}}
+{\footnotesize\ttfamily std\+::map$<$int, const \mbox{\hyperlink{class_c_event}{C\+Event}} $\ast$$>$ C\+World\+::events\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_c_world_aececaddab106e7d36d438f17b9ec1ba9}\label{class_c_world_aececaddab106e7d36d438f17b9ec1ba9}} 
+\index{C\+World@{C\+World}!i\+Ohandle@{i\+Ohandle}}
+\index{i\+Ohandle@{i\+Ohandle}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{i\+Ohandle}{iOhandle}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_i_ohandle}{I\+Ohandle}} C\+World\+::i\+Ohandle\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_c_world_aef07829b9e53bf45fcf88e368ce1c471}\label{class_c_world_aef07829b9e53bf45fcf88e368ce1c471}} 
+\index{C\+World@{C\+World}!items@{items}}
+\index{items@{items}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{items}{items}}
+{\footnotesize\ttfamily std\+::map$<$int, const \mbox{\hyperlink{class_c_item}{C\+Item}} $\ast$$>$ C\+World\+::items\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_c_world_a57cb7b4ee9c9f8070eba90cfbd0717ed}\label{class_c_world_a57cb7b4ee9c9f8070eba90cfbd0717ed}} 
+\index{C\+World@{C\+World}!storyline@{storyline}}
+\index{storyline@{storyline}!C\+World@{C\+World}}
+\subsubsection{\texorpdfstring{storyline}{storyline}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ C\+World\+::storyline\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\mbox{\hyperlink{_world_8h}{World.\+h}}\item 
+E\+:/\+Dropbox/\+B\+I\+\_\+\+F\+I\+T\+\_\+\+C\+V\+U\+T/2. semestr/\+P\+A2/\+Game\+Book/\mbox{\hyperlink{_world_8cpp}{World.\+cpp}}\end{DoxyCompactItemize}
